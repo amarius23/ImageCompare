@@ -1,0 +1,66 @@
+[2026-06-05 01:56:25] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_01-56-25.png
+[2026-06-05 01:56:28] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_01-56-28.png
+[2026-06-05 01:56:30] PASS  |  2                               |  SSIM: 0.8535  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 01:56:32] FAIL  |  3                               |  SSIM: 0.6668  LPIPS: 0.4329  Hash: 106bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_01-56-32.png
+[2026-06-05 01:56:35] FAIL  |  4                               |  SSIM: 0.7389  LPIPS: 0.3649  Hash: 111bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_01-56-35.png
+[2026-06-05 01:56:37] PASS  |  6                               |  SSIM: 0.9409  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 01:56:40] FAIL  |  7                               |  SSIM: 0.7293  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_01-56-40.png
+[2026-06-05 01:56:42] PASS  |  8                               |  SSIM: 0.8855  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 01:56:45] PASS  |  9                               |  SSIM: 0.9246  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 01:56:48] PASS  |  10                              |  SSIM: 1.0000  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 01:56:51] FAIL  |  11                              |  SSIM: 0.6755  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_01-56-51.png
+[2026-06-05 02:12:02] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_02-12-02.png
+[2026-06-05 02:12:05] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_02-12-05.png
+[2026-06-05 02:12:07] PASS  |  2                               |  SSIM: 0.8535  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 02:12:10] FAIL  |  3                               |  SSIM: 0.6739  LPIPS: 0.4329  Hash: 106bits  Angle: 1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_02-12-10.png
+[2026-06-05 02:12:13] FAIL  |  4                               |  SSIM: 0.7407  LPIPS: 0.3649  Hash: 111bits  Angle: -1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_02-12-13.png
+[2026-06-05 02:12:15] PASS  |  6                               |  SSIM: 0.9409  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 02:12:18] FAIL  |  7                               |  SSIM: 0.7293  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_02-12-18.png
+[2026-06-05 02:12:21] PASS  |  8                               |  SSIM: 0.8855  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 02:12:24] PASS  |  9                               |  SSIM: 0.9246  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 02:12:27] PASS  |  10                              |  SSIM: 1.0000  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 02:12:32] FAIL  |  11                              |  SSIM: 0.6755  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_02-12-32.png
+[2026-06-05 02:31:21] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_02-31-21.png
+[2026-06-05 02:31:24] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_02-31-24.png
+[2026-06-05 02:31:26] PASS  |  2                               |  SSIM: 0.8535  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 02:31:29] FAIL  |  3                               |  SSIM: 0.6739  LPIPS: 0.4329  Hash: 106bits  Angle: 1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_02-31-29.png
+[2026-06-05 02:31:32] FAIL  |  4                               |  SSIM: 0.7407  LPIPS: 0.3649  Hash: 111bits  Angle: -1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_02-31-32.png
+[2026-06-05 02:31:34] PASS  |  6                               |  SSIM: 0.9409  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 02:31:37] FAIL  |  7                               |  SSIM: 0.7293  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_02-31-37.png
+[2026-06-05 02:31:39] PASS  |  8                               |  SSIM: 0.8855  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 02:31:42] PASS  |  9                               |  SSIM: 0.9246  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 02:31:44] PASS  |  10                              |  SSIM: 1.0000  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 02:31:49] FAIL  |  11                              |  SSIM: 0.6755  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_02-31-49.png
+[2026-06-05 02:34:31] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_02-34-31.png
+[2026-06-05 02:34:39] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_02-34-38.png
+[2026-06-05 02:34:47] PASS  |  2                               |  SSIM: 0.8709  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 02:34:56] FAIL  |  3                               |  SSIM: 0.6915  LPIPS: 0.4329  Hash: 106bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_02-34-56.png
+[2026-06-05 02:35:05] FAIL  |  4                               |  SSIM: 0.8031  LPIPS: 0.3649  Hash: 111bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_02-35-05.png
+[2026-06-05 02:35:14] PASS  |  6                               |  SSIM: 0.9078  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 02:35:23] FAIL  |  7                               |  SSIM: 0.7793  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_02-35-23.png
+[2026-06-05 02:35:32] PASS  |  8                               |  SSIM: 0.8843  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 02:35:42] PASS  |  9                               |  SSIM: 0.9357  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 02:35:52] PASS  |  10                              |  SSIM: 0.9243  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 02:36:01] FAIL  |  11                              |  SSIM: 0.6317  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_02-36-01.png
+[2026-06-05 02:37:16] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_02-37-16.png
+[2026-06-05 02:37:18] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_02-37-18.png
+[2026-06-05 02:37:21] PASS  |  2                               |  SSIM: 0.8535  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 02:37:23] FAIL  |  3                               |  SSIM: 0.6739  LPIPS: 0.4329  Hash: 106bits  Angle: 1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_02-37-23.png
+[2026-06-05 02:37:26] FAIL  |  4                               |  SSIM: 0.7407  LPIPS: 0.3649  Hash: 111bits  Angle: -1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_02-37-26.png
+[2026-06-05 02:37:29] PASS  |  6                               |  SSIM: 0.9409  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 02:37:33] FAIL  |  7                               |  SSIM: 0.7293  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_02-37-33.png
+[2026-06-05 02:37:36] PASS  |  8                               |  SSIM: 0.8855  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 02:37:39] PASS  |  9                               |  SSIM: 0.9246  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 02:37:42] PASS  |  10                              |  SSIM: 1.0000  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 02:37:46] FAIL  |  11                              |  SSIM: 0.6755  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_02-37-46.png
+[2026-06-05 02:42:17] FAIL  |  5                               |  SSIM: 0.9476  LPIPS: 0.8727  Hash: 134bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/5_diff_2026-06-05_02-42-17.png
+[2026-06-05 02:42:20] FAIL  |  1                               |  SSIM: 0.9006  LPIPS: 0.1737  Hash: 44bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/1_diff_2026-06-05_02-42-20.png
+[2026-06-05 02:42:22] PASS  |  2                               |  SSIM: 0.8535  LPIPS: 0.0395  Hash: 12bits
+[2026-06-05 02:42:25] FAIL  |  3                               |  SSIM: 0.6739  LPIPS: 0.4329  Hash: 106bits  Angle: 1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/3_diff_2026-06-05_02-42-25.png
+[2026-06-05 02:42:28] FAIL  |  4                               |  SSIM: 0.7407  LPIPS: 0.3649  Hash: 111bits  Angle: -1°  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/4_diff_2026-06-05_02-42-28.png
+[2026-06-05 02:42:31] PASS  |  6                               |  SSIM: 0.9409  LPIPS: 0.0454  Hash: 6bits
+[2026-06-05 02:42:34] FAIL  |  7                               |  SSIM: 0.7293  LPIPS: 0.1842  Hash: 45bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/7_diff_2026-06-05_02-42-34.png
+[2026-06-05 02:42:37] PASS  |  8                               |  SSIM: 0.8855  LPIPS: 0.0252  Hash: 0bits
+[2026-06-05 02:42:40] PASS  |  9                               |  SSIM: 0.9246  LPIPS: 0.0289  Hash: 0bits
+[2026-06-05 02:42:43] PASS  |  10                              |  SSIM: 1.0000  LPIPS: 0.0000  Hash: 0bits
+[2026-06-05 02:42:47] FAIL  |  11                              |  SSIM: 0.6755  LPIPS: 0.4593  Hash: 58bits  |  diff → /home/amarius/Python/ImageComp/logs/diff_maps/11_diff_2026-06-05_02-42-47.png

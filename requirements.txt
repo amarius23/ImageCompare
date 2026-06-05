@@ -1,0 +1,36 @@
+opencv-python        # Image loading, resizing, grayscale conversion, ORB alignment
+scikit-image         # SSIM calculation (structural_similarity)
+numpy                # Array math (used internally by cv2 and skimage)
+PyYAML               # Reading our config.yaml file
+Pillow               # Required by rembg and imagehash for PIL Image handling
+
+# --- Deep learning background removal ---
+# rembg uses U2-Net to remove backgrounds with much greater accuracy than GrabCut.
+# First run downloads the U2-Net model (~170 MB) to ~/.u2net/ automatically.
+rembg[cpu]
+
+# --- Detector-free feature matching (textureless furniture) ---
+# LoFTR works on plain white wardrobes where ORB finds no keypoints.
+# kornia includes LoFTR and runs on CPU if no CUDA GPU is available.
+torch                # PyTorch backend required by kornia
+torchvision          # Required alongside torch
+kornia               # Computer vision library with LoFTR matcher
+
+# --- Perceptual image similarity ---
+# LPIPS uses a pretrained VGG/AlexNet to compare images the way humans do:
+# minor angle and lighting changes score as similar; structural deformations score as different.
+lpips
+
+# --- Structural hash fingerprinting ---
+# imagehash computes a gradient-based hash (dHash) that is invariant to small
+# brightness, scale, and colour shifts but sensitive to structural changes.
+imagehash
+
+# --- OpenAI Vision bbox detection ---
+# GPT-4o identifies the wardrobe by understanding the scene semantically,
+# ignoring lamps, plants, and other room objects.  Falls back to rembg if
+# the API call fails or OPENAI_BBOX_ENABLED is False.
+openai
+
+# image-similarity-measures excluded: incompatible with Python 3.12
+# FSIM is disabled by default in config.yaml (fsim.enabled: false)
