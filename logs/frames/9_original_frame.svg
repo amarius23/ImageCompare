@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" width="960" height="600">
+  <rect width="960" height="600" fill="white"/>
+
+  <!-- outer furniture box -->
+  <rect x="220" y="50" width="520" height="500" fill="none" stroke="#111" stroke-width="2.5"/>
+
+  <!-- main vertical divider -->
+  <line x1="480" y1="50" x2="480" y2="550" stroke="#111" stroke-width="2.0"/>
+
+  <!-- main horizontal dividers per section -->
+  <line x1="220" y1="210" x2="480" y2="210" stroke="#333" stroke-width="1.2"/>
+  <line x1="480" y1="210" x2="740" y2="210" stroke="#333" stroke-width="1.2"/>
+
+  <line x1="220" y1="430" x2="480" y2="430" stroke="#333" stroke-width="1.2"/>
+  <line x1="480" y1="430" x2="740" y2="430" stroke="#333" stroke-width="1.2"/>
+
+  <!-- upper closed doors inset rects -->
+  <rect x="228" y="58" width="244" height="144" fill="none" stroke="#333" stroke-width="1.2"/>
+  <rect x="488" y="58" width="244" height="144" fill="none" stroke="#333" stroke-width="1.2"/>
+
+  <!-- middle open bays -->
+  <!-- left bay -->
+  <line x1="350" y1="210" x2="350" y2="430" stroke="#333" stroke-width="1.2"/>
+  <!-- right bay -->
+  <line x1="610" y1="210" x2="610" y2="430" stroke="#333" stroke-width="1.2"/>
+
+  <!-- lower open shelf zones -->
+  <!-- left section -->
+  <line x1="220" y1="455" x2="350" y2="455" stroke="#333" stroke-width="1.2"/>
+  <line x1="350" y1="455" x2="480" y2="455" stroke="#333" stroke-width="1.2"/>
+  <!-- right section -->
+  <line x1="480" y1="455" x2="610" y2="455" stroke="#333" stroke-width="1.2"/>
+  <line x1="610" y1="455" x2="740" y2="455" stroke="#333" stroke-width="1.2"/>
+
+  <!-- bottom drawer/door fronts inset rects -->
+  <rect x="226" y="438" width="248" height="104" fill="none" stroke="#333" stroke-width="1.2"/>
+  <rect x="486" y="438" width="248" height="104" fill="none" stroke="#333" stroke-width="1.2"/>
+
+  <!-- plinth -->
+  <rect x="220" y="550" width="520" height="10" fill="none" stroke="#333" stroke-width="1.2"/>
+</svg>

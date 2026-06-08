@@ -1,0 +1,11 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 96,
+  "differences": [
+    "Original middle section is split into four tall vertical panels/doors, while generated middle section has only two wide panels/doors.",
+    "Generated adds an extra horizontal band/drawer row above the bottom compartments that is not present in the original.",
+    "Original has three main vertical tiers (top, middle, bottom), while generated effectively has four due to the added horizontal row.",
+    "Section proportions differ: the generated middle area is more open and less subdivided than the original."
+  ],
+  "summary": "The generated cabinet does not match the original because the middle section panel count and lower section layout are structurally different."
+}
