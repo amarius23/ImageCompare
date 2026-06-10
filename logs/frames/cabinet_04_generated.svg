@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 673" width="960" height="673">
+  <rect width="960" height="673" fill="white"/>
+  <rect x="50" y="50" width="860" height="573" fill="none" stroke="#1a1a1a" stroke-width="3.0"/>
+  <rect x="50" y="623" width="860" height="17" fill="none" stroke="#333" stroke-width="1.5"/>
+  <text x="168" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#888">S1 27.6%</text>
+  <line x1="287" y1="50" x2="287" y2="623" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+  <rect x="295" y="58" width="101" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <line x1="404" y1="50" x2="404" y2="623" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="412" y="58" width="101" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <text x="404" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#888">S2 27.2%</text>
+  <line x1="521" y1="50" x2="521" y2="623" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+  <rect x="529" y="58" width="48" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <line x1="585" y1="50" x2="585" y2="623" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="593" y="58" width="48" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <text x="585" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#888">S3 14.9%</text>
+  <line x1="649" y1="50" x2="649" y2="623" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+  <rect x="657" y="58" width="45" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <line x1="710" y1="50" x2="710" y2="623" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="718" y="58" width="45" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <text x="710" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#888">S4 14.1%</text>
+  <line x1="771" y1="50" x2="771" y2="623" stroke="#1a1a1a" stroke-width="2.0" stroke-linecap="round"/>
+  <rect x="779" y="58" width="39" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <line x1="826" y1="50" x2="826" y2="623" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+  <rect x="834" y="58" width="39" height="557" fill="none" stroke="#444" stroke-width="1.2"/>
+  <text x="826" y="669" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#888">S5 12.8%</text>
+</svg>
