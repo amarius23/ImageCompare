@@ -1,0 +1,46 @@
+Furniture: modular storage sideboard.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 4.8.
+Depth: shallow wall-standing unit.
+Total: 5 doors total, 1 drawers total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left cabinet: two-door cabinet.  X: 0%–16% of total width.  two full-height doors, no handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+  [2] vertical slot section: open slot shelves.  X: 16%–32% of total width.  Height span: 75%.  six vertical rectangular open slots, open front
+       EXACT COUNTS: 5 vertical dividers, 6 compartments
+  [3] upper left open shelf: open shelf.  X: 32%–48% of total width.  Height span: 25%.  single open compartment above slots
+       EXACT COUNTS: 1 compartments
+  [4] mid left open shelf: open shelf.  X: 48%–62% of total width.  single square open cubby
+       EXACT COUNTS: 1 compartments
+  [5] left center door section: door with open shelf below.  X: 62%–76% of total width.  one large door above, one open shelf below
+       EXACT COUNTS: 1 doors, 1 shelves, 1 horizontal dividers, 2 compartments
+  [6] right center door section: single door.  X: 76%–90% of total width.  single large door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [7] lower right open shelf with drawer: open shelf with single drawer.  X: 90%–100% of total width.  open compartment above single wide drawer
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 horizontal dividers, 2 compartments
+  [8] right cabinet: single-door cabinet.  X: 100%–116% of total width.  one full-height door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Drawers:
+  - single wide drawer at bottom right, flush front, no visible handle
+
+Doors:
+  - {'description': 'two full-height doors on the leftmost section, no handle', 'handle_type': 'none', 'handle_position': 'center'}
+  - {'description': 'large door in left center, flush with no visible handle', 'handle_type': 'none', 'handle_position': 'center'}
+  - {'description': 'large door in right center, flush with no visible handle', 'handle_type': 'none', 'handle_position': 'center'}
+  - {'description': 'single full-height door on rightmost section, no handle', 'handle_type': 'none', 'handle_position': 'center'}
+
+Shelves:
+  - one open shelf above six vertical slots (upper left center)
+  - one open shelf below the large door (left center section)
+  - one open compartment above drawer (lower right center)
+
+Vertical dividers:
+  - five thin panels forming six vertical slots in center-left section
+
+Horizontal dividers:
+  - divider between door and shelf in left center section
+  - divider between open compartment and drawer in lower right center section
+
+All geometry consists of rectangular panels. Preserve exact proportions.

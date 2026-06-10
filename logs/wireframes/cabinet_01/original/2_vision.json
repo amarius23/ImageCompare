@@ -1,0 +1,43 @@
+{
+  "furniture_type": "wardrobe",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 0.5,
+    "depth_notes": "medium depth freestanding unit with angled top"
+  },
+  "sections": [
+    {
+      "name": "main cabinet",
+      "position": "full",
+      "type": "single-door cabinet",
+      "width_fraction": 1.0,
+      "height_fraction": 1.0,
+      "details": "full-height door with angled top, one visible handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "one full-height door with slanted top",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [],
+  "horizontal_dividers": [],
+  "total_counts": {
+    "doors": 1,
+    "drawers": 0,
+    "sections": 1
+  }
+}

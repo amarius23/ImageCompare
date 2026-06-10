@@ -1,0 +1,49 @@
+Furniture: modular storage unit.
+Perspective: straight on.
+Width-to-height ratio: approximately 5.5.
+Depth: shallow freestanding unit.
+Total: 6 doors total, 1 drawers total, 9 sections.
+
+Sections (9 total, left to right):
+  [1] left cabinet: two-door cabinet.  X: 0%–17% of total width.  two full-height doors, no handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+  [2] vertical slot section: vertical slot organizer.  X: 17%–29% of total width.  six narrow vertical slots, open front
+       EXACT COUNTS: 6 vertical dividers, 6 compartments
+  [3] upper left open shelf: open shelf.  X: 29%–41% of total width.  Height span: 55%.  one rectangular open compartment
+       EXACT COUNTS: 1 shelves, 1 horizontal dividers, 1 compartments
+  [4] lower left grid section: open grid.  X: 41%–53% of total width.  Height span: 45%.  one square open compartment below shelf
+       EXACT COUNTS: 1 compartments
+  [5] center left open shelf: open shelf.  X: 53%–66% of total width.  one open shelf spanning full height
+       EXACT COUNTS: 1 shelves, 1 horizontal dividers, 1 compartments
+  [6] center left large door section: large drop-down door.  X: 66%–81% of total width.  Height span: 56%.  one large door with no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [7] center right large door section: large drop-down door.  X: 81%–94% of total width.  Height span: 56%.  one large door with no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [8] far right open and drawer section: open shelf with one drawer below.  X: 94%–106% of total width.  upper open compartment, bottom wide drawer
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 horizontal dividers, 2 compartments
+  [9] right cabinet: two-door cabinet.  X: 106%–122% of total width.  two full-height doors, no handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+
+Drawers:
+  - one wide drawer at lower section second from right
+
+Doors:
+  - {'description': 'left full-height door, flush with unit', 'handle_type': 'none', 'handle_position': 'left_center'}
+  - {'description': 'right full-height door, flush with unit', 'handle_type': 'none', 'handle_position': 'right_center'}
+  - {'description': 'center left large door panel with no handle', 'handle_type': 'none', 'handle_position': 'center'}
+  - {'description': 'center right large door panel with no handle', 'handle_type': 'none', 'handle_position': 'center'}
+
+Shelves:
+  - open rectangular shelf at upper left center
+  - open square shelf at bottom left center
+  - full height open shelf near center
+  - open upper shelf above right drawer
+
+Vertical dividers:
+  - six narrow dividers forming seven slots for vertical storage in second section from left
+  - one divider down the middle of each two-door cabinet (left and right)
+
+Horizontal dividers:
+  - horizontal partition between upper and lower compartments in sections with more than one row
+
+All geometry consists of rectangular panels. Preserve exact proportions.

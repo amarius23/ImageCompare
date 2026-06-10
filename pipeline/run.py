@@ -1,188 +1,179 @@
 """
 Pipeline orchestrator
-----------------------
+---------------------
 Stages:
-  S1  Localize   — rembg crop to furniture
-  S4  Wireframe  — Canny edges → clean + smooth wireframe
-  S6  SVG        — 3-turn GPT conversation → clean SVG wireframe
-  S7  Compare    — SSIM on soft edge maps → PASS / FAIL + diff image
-  S8  Debug      — numbered output images
+  S1  Crop         — smart floor/wall trim (rembg or edge-density fallback)
+  S2  Vision       — GPT-4.1 vision → structured JSON
+  S3  Describe     — JSON → concise text description
+  S4  Edges        — OpenCV Canny + Hough lines → edge map
+  S5  Wireframe    — gpt-image-1 image editing → wireframe PNG
+
+Each cabinet is processed as a pair (original + generated).
+
+Output: logs/wireframes/{name}/original/  and  logs/wireframes/{name}/generated/
+  1_cropped.png
+  2_vision.json
+  3_description.txt
+  4_edges.png
+  5_wireframe.png
 
 Usage:
   cd /home/amarius/Python/ImageComp
   source venv/bin/activate
-  python -m pipeline.run
+  python -m pipeline.run                          # full batch
+  python -m pipeline.run images/originals/2.jpg  # single image (no pair)
 """
 
 import json
+import os
+import sys
 import cv2
-import numpy as np
 from pathlib import Path
-from typing import Optional
+from openai import OpenAI
 
-from .stage1_localize  import FurnitureLocalizer
-from .stage4_wireframe import WireframeGenerator
-from .stage6_svg       import SvgGenerator
-from .stage7_compare   import EdgeComparator
-from .stage8_debug     import DebugVisualizer
-from .models           import WireframeResult
+from .stage1_crop      import crop_furniture
+from .stage2_vision    import analyze_vision
+from .stage3_describe  import build_description
+from .stage4_edges     import extract_edges
+from .stage5_wireframe import generate_wireframe
 
-# ── paths ─────────────────────────────────────────────────────────────────────
-_BASE       = Path(__file__).resolve().parent.parent
-_LOGS       = _BASE / "logs"
-_FRAMES     = _LOGS / "frames"
-_DEBUG_ROOT = _LOGS / "debug"
+_BASE = Path(__file__).resolve().parent.parent
+_LOGS = _BASE / "logs" / "wireframes"
 
-# ── image pairs for batch QA ──────────────────────────────────────────────────
-IMAGE_PAIRS = [
-   #{"name": "cabinet_01", "original": "images/originals/5.png",  "generated": "images/generated/5.png"},
-   #{"name": "cabinet_02", "original": "images/originals/1.jpg",  "generated": "images/generated/1.jpg"},
-   {"name": "cabinet_03", "original": "images/originals/2.jpg",  "generated": "images/generated/2.jpg"},
-    {"name": "cabinet_04", "original": "images/originals/3.jpg",  "generated": "images/generated/3.jpg"},
-   #{"name": "cabinet_05", "original": "images/originals/4.jpg",  "generated": "images/generated/4.jpg"},
-   #{"name": "cabinet_06", "original": "images/originals/6.jpg",  "generated": "images/generated/6.jpg"},
-   #{"name": "cabinet_07", "original": "images/originals/7.jpg",  "generated": "images/generated/7.jpg"},
-    {"name": "cabinet_08", "original": "images/originals/8.jpg",  "generated": "images/generated/8.jpg"},
-    {"name": "cabinet_09", "original": "images/originals/9.jpg",  "generated": "images/generated/9.jpg"},
-   #{"name": "cabinet_10", "original": "images/originals/10.png", "generated": "images/generated/10.png"},
-   #{"name": "cabinet_11", "original": "images/originals/11.png", "generated": "images/generated/11.png"},
-]
+# ── env setup ─────────────────────────────────────────────────────────────────
 
+def _load_env() -> None:
+    if os.environ.get("OPENAI_API_KEY"):
+        return
+    env_file = _BASE / ".env"
+    if not env_file.exists():
+        return
+    for line in env_file.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, _, v = line.partition("=")
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
-class Pipeline:
-    def __init__(self, debug: bool = True):
-        self.localizer  = FurnitureLocalizer(padding=20)
-        self.wf_gen     = WireframeGenerator()
-        self.svg_gen    = SvgGenerator()
-        self.comparator = EdgeComparator()
-        self.debug      = debug
+_load_env()
+_CLIENT = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-    def process_image(
-        self,
-        image_path: str,
-        name: str,
-        dbg: Optional[DebugVisualizer] = None,
-    ) -> WireframeResult:
-        image_bgr = cv2.imread(str(_BASE / image_path))
-        if image_bgr is None:
-            raise FileNotFoundError(f"Cannot load image: {image_path}")
+# ── core single-image runner ──────────────────────────────────────────────────
 
-        # S1 — localize
-        print("    [S1] localizing...")
-        cropped, bbox = self.localizer.run(image_bgr)
-        if dbg:
-            dbg.save_01_crop(cropped)
-            dbg.save_03_edges(cropped)
+def _run_image(image_path: str, out_dir: Path) -> dict:
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-        # S4 — wireframe (CV edge-based)
-        print("    [S4] building wireframe...")
-        wf = self.wf_gen.run(cropped)
+    image_bgr = cv2.imread(str(_BASE / image_path))
+    if image_bgr is None:
+        raise FileNotFoundError(f"Cannot load image: {image_path}")
 
-        if dbg:
-            dbg.save_05_wireframe(wf.clean_img)
+    # S1
+    print("    [S1] cropping...")
+    crop = crop_furniture(image_bgr)
+    cv2.imwrite(str(out_dir / "1_cropped.png"), crop.image)
+    print(f"         {crop.w}×{crop.h}  →  1_cropped.png")
 
-        # S6 — send original photo + CV wireframe to GPT for clean SVG
-        print("    [S6] generating SVG wireframe...")
-        wf.svg_string = self.svg_gen.run(cropped, wf.clean_img)
-        _FRAMES.mkdir(parents=True, exist_ok=True)
-        svg_path = _FRAMES / f"{name}.svg"
-        svg_path.write_text(wf.svg_string)
-        print(f"    [S6] SVG saved → {svg_path.name}")
+    # S2
+    print("    [S2] vision analysis (GPT-4.1)...")
+    vision_json = analyze_vision(crop.image, _CLIENT)
+    (out_dir / "2_vision.json").write_text(json.dumps(vision_json, indent=2))
+    n_sections = len(vision_json.get("sections", []))
+    print(f"         {n_sections} sections  →  2_vision.json")
 
-        return wf
+    # S3
+    print("    [S3] building description...")
+    description = build_description(vision_json)
+    (out_dir / "3_description.txt").write_text(description)
+    print("         3_description.txt")
 
-    def run_qa(self, original_path: str, generated_path: str, name: str) -> dict:
-        sep = "=" * 55
-        print(f"\n{sep}")
-        print(f"  QA: {name}")
-        print(f"{sep}")
+    # S4
+    print("    [S4] extracting edges (Canny + Hough)...")
+    edge_map = extract_edges(crop.image)
+    cv2.imwrite(str(out_dir / "4_edges.png"), edge_map)
+    print("         4_edges.png")
 
-        dbg_orig = DebugVisualizer(str(_DEBUG_ROOT / f"{name}_original"))  if self.debug else None
-        dbg_gen  = DebugVisualizer(str(_DEBUG_ROOT / f"{name}_generated")) if self.debug else None
+    # S5
+    print("    [S5] generating wireframe (gpt-image-1)...")
+    wireframe = generate_wireframe(crop.image, edge_map, description, _CLIENT, vision_json)
+    wireframe_path = str(out_dir / "5_wireframe.png")
+    cv2.imwrite(wireframe_path, wireframe)
+    print("         5_wireframe.png")
 
-        print("\n  --- ORIGINAL ---")
-        orig_wf = self.process_image(original_path,  f"{name}_original",  dbg_orig)
-
-        print("\n  --- GENERATED ---")
-        gen_wf  = self.process_image(generated_path, f"{name}_generated", dbg_gen)
-
-        # S7 — compare
-        print("\n    [S7] comparing wireframes...")
-        _FRAMES.mkdir(parents=True, exist_ok=True)
-        diff_path = str(_FRAMES / f"{name}_diff.png")
-        report = self.comparator.run(orig_wf, gen_wf, diff_path=diff_path)
-
-        # S8 — side-by-side overlay
-        if self.debug and dbg_orig:
-            orig_img = cv2.imread(str(_BASE / original_path))
-            gen_img  = cv2.imread(str(_BASE / generated_path))
-            if orig_img is not None and gen_img is not None:
-                dbg_orig.save_08_overlay(orig_img, gen_img)
-            _save_wireframe_overlay(orig_wf, gen_wf,
-                                    str(_DEBUG_ROOT / f"{name}_original" / "08_wireframe_overlay.png"))
-
-        icon = "PASS" if report.verdict == "PASS" else "FAIL"
-        print(f"\n  Result: {icon}  SSIM={report.confidence:.1f}%")
-        for d in report.differences:
-            print(f"    [{d.severity.upper():8}] {d.description}")
-
-        report_path = str(_FRAMES / f"{name}_report.json")
-        with open(report_path, "w") as f:
-            json.dump(report.to_dict(), f, indent=2)
-
-        return {
-            "name":       name,
-            "verdict":    report.verdict,
-            "confidence": report.confidence,
-            "diff":       diff_path,
-            "report":     report_path,
-        }
+    return {"wireframe": wireframe_path, "sections": n_sections}
 
 
-# ── helpers ───────────────────────────────────────────────────────────────────
+# ── public API ────────────────────────────────────────────────────────────────
 
-def _save_wireframe_overlay(orig: WireframeResult, gen: WireframeResult, path: str) -> None:
-    h = max(orig.clean_img.shape[0], gen.clean_img.shape[0])
+def run_pair(name: str, original_path: str, generated_path: str) -> dict:
+    sep = "=" * 55
+    print(f"\n{sep}")
+    print(f"  Cabinet: {name}")
+    print(f"{sep}")
 
-    def to_h(img):
-        scale = h / img.shape[0]
-        return cv2.resize(img, (int(img.shape[1] * scale), h))
+    base = _LOGS / name
 
-    o_bgr = cv2.cvtColor(to_h(orig.clean_img), cv2.COLOR_GRAY2BGR)
-    g_bgr = cv2.cvtColor(to_h(gen.clean_img),  cv2.COLOR_GRAY2BGR)
-    gap   = np.full((h, 6, 3), 200, dtype=np.uint8)
-    Path(path).parent.mkdir(parents=True, exist_ok=True)
-    cv2.imwrite(path, np.hstack([o_bgr, gap, g_bgr]))
+    print("\n  -- original --")
+    orig = _run_image(original_path, base / "original")
 
+    print("\n  -- generated --")
+    gen  = _run_image(generated_path, base / "generated")
 
-# ── convenience functions ─────────────────────────────────────────────────────
-
-def run_qa(original_path: str, generated_path: str, name: str,
-           debug: bool = True) -> dict:
-    return Pipeline(debug=debug).run_qa(original_path, generated_path, name)
+    print(f"\n  Done → {base}")
+    return {"name": name, "original": orig, "generated": gen}
 
 
-def run_batch(pairs=None, debug: bool = True):
+def run_single(image_path: str, name: str | None = None) -> dict:
+    path = _BASE / image_path
+    if name is None:
+        name = path.stem
+    out_dir = _LOGS / name
+    print(f"\n{'=' * 55}")
+    print(f"  Image: {name}")
+    print(f"{'=' * 55}")
+    r = _run_image(image_path, out_dir)
+    print(f"\n  Done → {out_dir}")
+    return {"name": name, **r}
+
+
+def run_batch(pairs: list[dict] | None = None) -> list[dict]:
     if pairs is None:
         pairs = IMAGE_PAIRS
 
-    pipeline = Pipeline(debug=debug)
-    results  = []
-    for pair in pairs:
-        r = pipeline.run_qa(pair["original"], pair["generated"], pair["name"])
+    results = []
+    for entry in pairs:
+        r = run_pair(entry["name"], entry["original"], entry["generated"])
         results.append(r)
 
     sep = "=" * 55
     print(f"\n{sep}")
     print("  BATCH SUMMARY")
     print(f"{sep}")
-    passed = sum(1 for r in results if r["verdict"] == "PASS")
     for r in results:
-        icon = "PASS" if r["verdict"] == "PASS" else "FAIL"
-        print(f"  {icon}  {r['name']:<30}  conf={r['confidence']:.1f}%")
-    print(f"\n  {passed}/{len(results)} passed")
+        print(f"  {r['name']}")
+        print(f"    original  →  {r['original']['wireframe']}")
+        print(f"    generated →  {r['generated']['wireframe']}")
+    print(f"\n  {len(results)} pairs processed")
     return results
 
 
+# ── image pairs ───────────────────────────────────────────────────────────────
+
+IMAGE_PAIRS = [
+    {"name": "cabinet_01", "original": "images/originals/1.jpg",  "generated": "images/generated/1.jpg"},
+    {"name": "cabinet_02", "original": "images/originals/2.jpg",  "generated": "images/generated/2.jpg"},
+    # {"name": "cabinet_03", "original": "images/originals/3.jpg",  "generated": "images/generated/3.jpg"},
+    # {"name": "cabinet_04", "original": "images/originals/4.jpg",  "generated": "images/generated/4.jpg"},
+    # {"name": "cabinet_05", "original": "images/originals/5.png",  "generated": "images/generated/5.png"},
+    # {"name": "cabinet_06", "original": "images/originals/6.jpg",  "generated": "images/generated/6.jpg"},
+    # {"name": "cabinet_07", "original": "images/originals/7.jpg",  "generated": "images/generated/7.jpg"},
+    # {"name": "cabinet_08", "original": "images/originals/8.jpg",  "generated": "images/generated/8.jpg"},
+    # {"name": "cabinet_09", "original": "images/originals/9.jpg",  "generated": "images/generated/9.jpg"},
+    # {"name": "cabinet_10", "original": "images/originals/10.png", "generated": "images/generated/10.png"},
+    # {"name": "cabinet_11", "original": "images/originals/11.png", "generated": "images/generated/11.png"},
+]
+
+
 if __name__ == "__main__":
-    run_batch()
+    if len(sys.argv) > 1:
+        run_single(sys.argv[1])
+    else:
+        run_batch()

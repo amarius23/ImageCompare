@@ -1,0 +1,14 @@
+Furniture: wardrobe.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 0.5.
+Depth: medium depth freestanding unit with angled top.
+Total: 1 doors total, 1 sections.
+
+Sections (1 total, left to right):
+  [1] main cabinet: single-door cabinet.  X: 0%–100% of total width.  full-height door with angled top, one visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'one full-height door with slanted top', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+
+All geometry consists of rectangular panels. Preserve exact proportions.
