@@ -1,0 +1,41 @@
+Furniture: modular storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 3.5.
+Depth: shallow wall-mounted unit.
+Total: 6 drawers total, 7 sections.
+
+Sections (7 total, left to right):
+  [1] open bottom-left shelf: open shelf.  X: 0%–8% of total width.  single open compartment at the bottom
+       EXACT COUNTS: 1 shelves, 1 vertical dividers, 1 horizontal dividers, 1 compartments
+  [2] left vertical shelves: vertical open shelving.  X: 8%–21% of total width.  five open shelf spaces divided by four horizontal shelves
+       EXACT COUNTS: 4 shelves, 1 vertical dividers, 4 horizontal dividers, 5 compartments
+  [3] left-center open vertical unit: open shelving.  X: 21%–32% of total width.  three open compartments vertically stacked
+       EXACT COUNTS: 2 shelves, 1 vertical dividers, 2 horizontal dividers, 3 compartments
+  [4] center-left main space: open tall compartment.  X: 32%–51% of total width.  one large open compartment, shelf at the bottom
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [5] center-right main space: open tall compartment.  X: 51%–70% of total width.  one large open compartment, shelf at the bottom
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [6] right vertical shelves (narrow): vertical open shelving.  X: 70%–78% of total width.  five open shelf spaces divided by four horizontal shelves
+       EXACT COUNTS: 4 shelves, 1 vertical dividers, 4 horizontal dividers, 5 compartments
+  [7] rightmost tall vertical shelves: large vertical open shelving.  X: 78%–100% of total width.  eighteen open cubby compartments in a grid of 3 columns by 6 rows
+       EXACT COUNTS: 12 shelves, 3 vertical dividers, 6 horizontal dividers, 18 compartments
+
+Drawers:
+  - six equal-sized drawers along the bottom of the whole unit, one per vertical bay, spanning full width of each section
+
+Shelves:
+  - four narrow horizontal shelves on left vertical section
+  - two mid-unit bottom shelves below tall compartments
+  - four narrow horizontal shelves in right narrow column
+  - twelve small shelves forming cubbies in rightmost section
+
+Vertical dividers:
+  - six main vertical panels dividing the cabinet into seven vertical sections
+  - three additional vertical dividers in the rightmost cubby grid section
+
+Horizontal dividers:
+  - shelf at the bottom of each main tall compartment
+  - four shelves in narrow side vertical shelf sections
+  - six in cubby grid section
+
+All geometry consists of rectangular panels. Preserve exact proportions.

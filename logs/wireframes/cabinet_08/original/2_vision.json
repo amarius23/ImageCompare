@@ -1,0 +1,41 @@
+{
+  "furniture_type": "open shelving unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 0.4,
+    "depth_notes": "shallow freestanding unit"
+  },
+  "sections": [
+    {
+      "name": "main shelving column",
+      "position": "center",
+      "type": "open shelf column",
+      "width_fraction": 1.0,
+      "height_fraction": 1.0,
+      "details": "open front, adjustable shelf holes along sides",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 2,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 2,
+        "compartments": 3
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [],
+  "shelves": [
+    "two fixed shelves forming three compartments, adjustable height possible via side holes"
+  ],
+  "vertical_dividers": [],
+  "horizontal_dividers": [
+    "two shelf panels spanning width of the unit"
+  ],
+  "total_counts": {
+    "doors": 0,
+    "drawers": 0,
+    "sections": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 47,
+  "original_structure": {
+    "section_count": 7,
+    "total_doors": 2,
+    "total_drawers": 4,
+    "total_open_bays": 5,
+    "vertical_dividers": 6,
+    "horizontal_dividers": 2,
+    "width_to_height_ratio": 4.5
+  },
+  "generated_structure": {
+    "section_count": 7,
+    "total_doors": 6,
+    "total_drawers": 3,
+    "total_open_bays": 6,
+    "vertical_dividers": 6,
+    "horizontal_dividers": 2,
+    "width_to_height_ratio": 4.5
+  },
+  "matching_elements": [
+    "section_count",
+    "vertical_dividers",
+    "horizontal_dividers",
+    "overall width_to_height_ratio"
+  ],
+  "differences": [
+    "door count is higher in generated structure",
+    "drawer count is lower in generated structure",
+    "open bays differ slightly in layout and quantity",
+    "door placement does not match original",
+    "drawer placement and count is incorrect"
+  ],
+  "summary": "The generated wireframe has the correct proportions and section count but differs significantly in door and drawer configuration.",
+  "ssim_score": 0.7645
+}

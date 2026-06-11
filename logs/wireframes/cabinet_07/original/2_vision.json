@@ -1,0 +1,153 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 3.5,
+    "depth_notes": "shallow wall-mounted unit"
+  },
+  "sections": [
+    {
+      "name": "open bottom-left shelf",
+      "position": "far left",
+      "type": "open shelf",
+      "width_fraction": 0.08,
+      "height_fraction": 1.0,
+      "details": "single open compartment at the bottom",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left vertical shelves",
+      "position": "left-center",
+      "type": "vertical open shelving",
+      "width_fraction": 0.13,
+      "height_fraction": 1.0,
+      "details": "five open shelf spaces divided by four horizontal shelves",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 4,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 4,
+        "compartments": 5
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left-center open vertical unit",
+      "position": "left-mid",
+      "type": "open shelving",
+      "width_fraction": 0.11,
+      "height_fraction": 1.0,
+      "details": "three open compartments vertically stacked",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 2,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 2,
+        "compartments": 3
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-left main space",
+      "position": "left of center",
+      "type": "open tall compartment",
+      "width_fraction": 0.19,
+      "height_fraction": 1.0,
+      "details": "one large open compartment, shelf at the bottom",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-right main space",
+      "position": "right of center",
+      "type": "open tall compartment",
+      "width_fraction": 0.19,
+      "height_fraction": 1.0,
+      "details": "one large open compartment, shelf at the bottom",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right vertical shelves (narrow)",
+      "position": "center-right",
+      "type": "vertical open shelving",
+      "width_fraction": 0.08,
+      "height_fraction": 1.0,
+      "details": "five open shelf spaces divided by four horizontal shelves",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 4,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 4,
+        "compartments": 5
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "rightmost tall vertical shelves",
+      "position": "right",
+      "type": "large vertical open shelving",
+      "width_fraction": 0.22,
+      "height_fraction": 1.0,
+      "details": "eighteen open cubby compartments in a grid of 3 columns by 6 rows",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 12,
+        "vertical_dividers": 3,
+        "horizontal_dividers": 6,
+        "compartments": 18
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "six equal-sized drawers along the bottom of the whole unit, one per vertical bay, spanning full width of each section"
+  ],
+  "doors": [],
+  "shelves": [
+    "four narrow horizontal shelves on left vertical section",
+    "two mid-unit bottom shelves below tall compartments",
+    "four narrow horizontal shelves in right narrow column",
+    "twelve small shelves forming cubbies in rightmost section"
+  ],
+  "vertical_dividers": [
+    "six main vertical panels dividing the cabinet into seven vertical sections",
+    "three additional vertical dividers in the rightmost cubby grid section"
+  ],
+  "horizontal_dividers": [
+    "shelf at the bottom of each main tall compartment",
+    "four shelves in narrow side vertical shelf sections",
+    "six in cubby grid section"
+  ],
+  "total_counts": {
+    "doors": 0,
+    "drawers": 6,
+    "sections": 7
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "furniture_type": "wardrobe with integrated open shelving (understairs storage unit)",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 2.6,
+    "depth_notes": "moderate, freestanding floor unit"
+  },
+  "sections": [
+    {
+      "name": "left open shelving",
+      "position": "left",
+      "type": "open cubby shelving",
+      "width_fraction": 0.36,
+      "height_fraction": 1.0,
+      "details": "10 open cubby compartments, diagonal slant at top following stair shape",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 4,
+        "horizontal_dividers": 3,
+        "compartments": 10
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper left cabinet",
+      "position": "center-left upper",
+      "type": "single-door cabinet",
+      "width_fraction": 0.16,
+      "height_fraction": 0.36,
+      "details": "one rectangular cabinet door, vertical handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper middle cabinet",
+      "position": "center-middle upper",
+      "type": "double-door cabinet",
+      "width_fraction": 0.24,
+      "height_fraction": 0.36,
+      "details": "two cabinet doors, vertical handles",
+      "counts": {
+        "doors": 2,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper right cabinet",
+      "position": "right upper",
+      "type": "single-door cabinet",
+      "width_fraction": 0.12,
+      "height_fraction": 0.36,
+      "details": "one rectangular cabinet door, vertical handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower left cabinet",
+      "position": "center-left lower",
+      "type": "single-door cabinet",
+      "width_fraction": 0.16,
+      "height_fraction": 0.64,
+      "details": "one rectangular tall cabinet door, vertical handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower middle cabinet",
+      "position": "center-middle lower",
+      "type": "double-door cabinet",
+      "width_fraction": 0.24,
+      "height_fraction": 0.64,
+      "details": "two tall cabinet doors, vertical handles",
+      "counts": {
+        "doors": 2,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower right cabinet",
+      "position": "right lower",
+      "type": "single-door cabinet",
+      "width_fraction": 0.12,
+      "height_fraction": 0.64,
+      "details": "one tall cabinet door, vertical handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "one rectangular door, upper left",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "two rectangular doors, upper middle",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    },
+    {
+      "description": "one rectangular door, upper right",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "one tall rectangular door, lower left",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "two tall rectangular doors, lower middle",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    },
+    {
+      "description": "one tall rectangular door, lower right",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    }
+  ],
+  "shelves": [
+    "open shelving unit on far left consisting of 10 cubby compartments arranged vertically and horizontally in a geometric layout"
+  ],
+  "vertical_dividers": [
+    "four vertical partition panels in the open shelving zone (left)",
+    "one vertical divider inside each double-door cabinet (upper and lower middle sections)"
+  ],
+  "horizontal_dividers": [
+    "three horizontal partition panels in the open shelving zone (left)"
+  ],
+  "total_counts": {
+    "doors": 8,
+    "drawers": 0,
+    "sections": 7
+  }
+}

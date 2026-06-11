@@ -1,0 +1,30 @@
+Furniture: modular storage unit.
+Perspective: straight on.
+Width-to-height ratio: approximately 4.5.
+Depth: shallow floor-standing unit.
+Total: 5 doors total, 4 sections.
+
+Sections (4 total, left to right):
+  [1] left cabinet: two-door cabinet.  X: 0%–20% of total width.  two full-height doors, vertical pull bar handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+  [2] center-left cabinet: single-door cabinet.  X: 20%–40% of total width.  one full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] center-right cabinet: single-door cabinet.  X: 40%–60% of total width.  one full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [4] right cabinet: double-width single-door cabinet.  X: 60%–100% of total width.  one wide full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'full-height left door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'full-height left inner door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+  - {'description': 'full-height center-left door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'full-height center-right door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+  - {'description': 'full-height right door', 'handle_type': 'none', 'handle_position': 'center'}
+
+Vertical dividers:
+  - vertical divider between left cabinet doors
+  - panel dividing left cabinet and center-left cabinet
+  - panel dividing center-left and center-right cabinets
+  - panel dividing center-right and right cabinet
+
+All geometry consists of rectangular panels. Preserve exact proportions.

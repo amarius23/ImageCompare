@@ -1,0 +1,37 @@
+Furniture: wardrobe.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 2.3.
+Depth: freestanding, standard wardrobe depth.
+Total: 8 doors total, 8 drawers total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left tall section: single-door cabinet.  X: 0%–12% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [2] left-center tall section: single-door cabinet.  X: 12%–25% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [3] left-mid tall section: single-door cabinet.  X: 25%–38% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [4] center tall section: single-door cabinet.  X: 38%–50% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [5] center-right tall section: single-door cabinet.  X: 50%–62% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [6] right-mid tall section: single-door cabinet.  X: 62%–75% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [7] right-center tall section: single-door cabinet.  X: 75%–88% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+  [8] right tall section: single-door cabinet.  X: 88%–100% of total width.  full-height door above one bottom drawer, no visible handles
+       EXACT COUNTS: 1 doors, 1 drawers, 1 horizontal dividers, 1 compartments
+
+Drawers:
+  - eight identical wide, shallow drawers along the bottom, each under a tall cabinet door
+
+Doors:
+  - {'description': 'eight full-height doors with flush finish, no visible hardware', 'handle_type': 'none', 'handle_position': 'center'}
+
+Vertical dividers:
+  - seven vertical partition panels, separating each tall section
+
+Horizontal dividers:
+  - one continuous horizontal divider above bottom drawer row
+
+All geometry consists of rectangular panels. Preserve exact proportions.

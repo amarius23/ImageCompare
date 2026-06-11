@@ -1,0 +1,188 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 0.6,
+    "depth_notes": "deep floor-standing unit"
+  },
+  "sections": [
+    {
+      "name": "upper left cabinet",
+      "position": "upper left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.5,
+      "height_fraction": 0.38,
+      "details": "full-height door, no handle visible",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper right cabinet",
+      "position": "upper right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.5,
+      "height_fraction": 0.38,
+      "details": "full-height door, no handle visible",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "middle left open section",
+      "position": "center left",
+      "type": "open compartment",
+      "width_fraction": 0.5,
+      "height_fraction": 0.29,
+      "details": "open section with vertical divider on right, one horizontal shelf below",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "middle right open section",
+      "position": "center right",
+      "type": "open compartment",
+      "width_fraction": 0.5,
+      "height_fraction": 0.29,
+      "details": "open section with vertical divider on left, one horizontal shelf below",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower left cubby section",
+      "position": "bottom left",
+      "type": "open cubbies",
+      "width_fraction": 0.25,
+      "height_fraction": 0.13,
+      "details": "two open horizontal cubby compartments",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower right cubby section",
+      "position": "bottom right",
+      "type": "open cubbies",
+      "width_fraction": 0.25,
+      "height_fraction": 0.13,
+      "details": "two open horizontal cubby compartments",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "bottom left door section",
+      "position": "very bottom left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 0.2,
+      "details": "one short door with no visible handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "bottom right door section",
+      "position": "very bottom right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 0.2,
+      "details": "one short door with no visible handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "upper left full-height door",
+      "handle_type": "none",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "upper right full-height door",
+      "handle_type": "none",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "bottom left short door",
+      "handle_type": "none",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "bottom right short door",
+      "handle_type": "none",
+      "handle_position": "left_center"
+    }
+  ],
+  "shelves": [
+    "one horizontal shelf in middle left open section",
+    "one horizontal shelf in middle right open section",
+    "one horizontal shelf forming two cubbies in lower left section",
+    "one horizontal shelf forming two cubbies in lower right section"
+  ],
+  "vertical_dividers": [
+    "one full-height divider between left and right open compartments"
+  ],
+  "horizontal_dividers": [
+    "one divider below both middle open sections",
+    "one divider forming lower left cubbies",
+    "one divider forming lower right cubbies"
+  ],
+  "total_counts": {
+    "doors": 4,
+    "drawers": 0,
+    "sections": 8
+  }
+}

@@ -1,0 +1,29 @@
+Furniture: modular storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 2.2.
+Depth: freestanding, moderate depth, not wall-mounted.
+Total: 2 doors total, 4 sections.
+
+Sections (4 total, left to right):
+  [1] left open shelving: open shelf section.  X: 0%–28% of total width.  open, single horizontal shelf, no doors or drawers
+       EXACT COUNTS: 1 shelves, 1 horizontal dividers, 2 compartments
+  [2] center-left tall open: tall open section.  X: 28%–51% of total width.  tall open space, no shelves or doors
+       EXACT COUNTS: 1 compartments
+  [3] right open lower: open shelf section.  X: 51%–75% of total width.  Height span: 53%.  bottom open cubby below glass doors, no shelf
+       EXACT COUNTS: 1 compartments
+  [4] right glass cabinet: two-door glass cabinet.  X: 75%–99% of total width.  Height span: 47%.  two glass doors, each with vertical pull bars
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+
+Doors:
+  - {'description': 'two glass doors, upper right section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'center'}
+
+Shelves:
+  - one horizontal shelf, left section only
+
+Vertical dividers:
+  - three main vertical panels separate the four sections
+
+Horizontal dividers:
+  - one shelf divides left section in half
+
+All geometry consists of rectangular panels. Preserve exact proportions.

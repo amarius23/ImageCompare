@@ -1,0 +1,35 @@
+Furniture: wardrobe.
+Perspective: straight on.
+Width-to-height ratio: approximately 2.3.
+Depth: free-standing, standard wardrobe depth.
+Total: 6 doors total, 3 drawers total, 5 sections.
+
+Sections (5 total, left to right):
+  [1] far left cabinet: single tall door cabinet.  X: 0%–18% of total width.  full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] left center cabinet: single tall door cabinet.  X: 18%–36% of total width.  full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] center cabinet with drawers: tall double door cabinet above drawers.  X: 36%–61% of total width.  upper double doors with vertical pull bar handles, 3 horizontal drawers below
+       EXACT COUNTS: 2 doors, 3 drawers, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [4] right center cabinet: single tall door cabinet.  X: 61%–79% of total width.  full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [5] far right cabinet: single tall door cabinet.  X: 79%–100% of total width.  full-height door, vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Drawers:
+  - Three large horizontal drawers with straight handles, all located in the central lower section.
+
+Doors:
+  - {'description': 'full-height door, leftmost section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'full-height door, left center section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'double doors, center upper section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'center'}
+  - {'description': 'full-height door, right center section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+  - {'description': 'full-height door, far right section', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+
+Vertical dividers:
+  - Vertical divider separates each cabinet section.
+
+Horizontal dividers:
+  - Horizontal divider above drawers in central section.
+
+All geometry consists of rectangular panels. Preserve exact proportions.

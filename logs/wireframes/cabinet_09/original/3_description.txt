@@ -1,0 +1,41 @@
+Furniture: wardrobe storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 0.55.
+Depth: freestanding unit, moderate depth.
+Total: 4 doors total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] upper left cabinet: single-door cabinet.  X: 0%–50% of total width.  Height span: 33%.  full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] upper right cabinet: single-door cabinet.  X: 50%–100% of total width.  Height span: 33%.  full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] middle left open compartment: open compartment.  X: 100%–150% of total width.  Height span: 22%.  open space, no doors or shelves
+       EXACT COUNTS: 1 vertical dividers, 1 compartments
+  [4] middle right open compartment: open compartment.  X: 150%–200% of total width.  Height span: 22%.  open space, no doors or shelves
+       EXACT COUNTS: 1 vertical dividers, 1 compartments
+  [5] middle left horizontal slot shelves: open slot shelves.  X: 200%–250% of total width.  Height span: 11%.  3 horizontal shelf slots, open front
+       EXACT COUNTS: 2 shelves, 2 horizontal dividers, 3 compartments
+  [6] middle right horizontal slot shelves: open slot shelves.  X: 250%–300% of total width.  Height span: 11%.  3 horizontal shelf slots, open front
+       EXACT COUNTS: 2 shelves, 2 horizontal dividers, 3 compartments
+  [7] lower left base cabinet: single-door cabinet.  X: 300%–350% of total width.  Height span: 22%.  full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [8] lower right base cabinet: single-door cabinet.  X: 350%–400% of total width.  Height span: 22%.  full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'upper left full-height door', 'handle_type': 'none', 'handle_position': 'right_center'}
+  - {'description': 'upper right full-height door', 'handle_type': 'none', 'handle_position': 'left_center'}
+  - {'description': 'lower left base door', 'handle_type': 'none', 'handle_position': 'right_center'}
+  - {'description': 'lower right base door', 'handle_type': 'none', 'handle_position': 'left_center'}
+
+Shelves:
+  - middle left horizontal slot shelves: two shelf panels, three compartments
+  - middle right horizontal slot shelves: two shelf panels, three compartments
+
+Vertical dividers:
+  - one vertical partition running through the center, dividing unit into left and right zones
+
+Horizontal dividers:
+  - two horizontal shelf panels in each of the slot shelf sections, separating the slot compartments
+
+All geometry consists of rectangular panels. Preserve exact proportions.

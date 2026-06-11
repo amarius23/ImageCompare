@@ -3,16 +3,16 @@
   "perspective": "slightly angled front view",
   "proportions": {
     "width_to_height": 0.6,
-    "depth_notes": "standard depth freestanding unit"
+    "depth_notes": "standard floor-standing unit"
   },
   "sections": [
     {
-      "name": "main cabinet",
-      "position": "full width",
+      "name": "main slanted-door cabinet",
+      "position": "center",
       "type": "single-door cabinet",
       "width_fraction": 1.0,
       "height_fraction": 1.0,
-      "details": "one full-height door with slanted top, wood finish, single vertical handle",
+      "details": "one full-height door with angled top edge, wood grain finish, vertical pull bar handle",
       "counts": {
         "doors": 1,
         "drawers": 0,
@@ -29,7 +29,7 @@
     {
       "description": "one full-height door with slanted top",
       "handle_type": "vertical_pull_bar",
-      "handle_position": "left_center"
+      "handle_position": "right_center"
     }
   ],
   "shelves": [],

@@ -1,0 +1,41 @@
+Furniture: wardrobe with integrated open shelving (understairs storage unit).
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 2.6.
+Depth: moderate, freestanding floor unit.
+Total: 8 doors total, 7 sections.
+
+Sections (7 total, left to right):
+  [1] left open shelving: open cubby shelving.  X: 0%–36% of total width.  10 open cubby compartments, diagonal slant at top following stair shape
+       EXACT COUNTS: 4 vertical dividers, 3 horizontal dividers, 10 compartments
+  [2] upper left cabinet: single-door cabinet.  X: 36%–52% of total width.  Height span: 36%.  one rectangular cabinet door, vertical handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] upper middle cabinet: double-door cabinet.  X: 52%–76% of total width.  Height span: 36%.  two cabinet doors, vertical handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+  [4] upper right cabinet: single-door cabinet.  X: 76%–88% of total width.  Height span: 36%.  one rectangular cabinet door, vertical handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [5] lower left cabinet: single-door cabinet.  X: 88%–104% of total width.  Height span: 64%.  one rectangular tall cabinet door, vertical handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [6] lower middle cabinet: double-door cabinet.  X: 104%–128% of total width.  Height span: 64%.  two tall cabinet doors, vertical handles
+       EXACT COUNTS: 2 doors, 1 vertical dividers, 1 compartments
+  [7] lower right cabinet: single-door cabinet.  X: 128%–140% of total width.  Height span: 64%.  one tall cabinet door, vertical handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'one rectangular door, upper left', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'two rectangular doors, upper middle', 'handle_type': 'vertical_pull_bar', 'handle_position': 'center'}
+  - {'description': 'one rectangular door, upper right', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'one tall rectangular door, lower left', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'two tall rectangular doors, lower middle', 'handle_type': 'vertical_pull_bar', 'handle_position': 'center'}
+  - {'description': 'one tall rectangular door, lower right', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+
+Shelves:
+  - open shelving unit on far left consisting of 10 cubby compartments arranged vertically and horizontally in a geometric layout
+
+Vertical dividers:
+  - four vertical partition panels in the open shelving zone (left)
+  - one vertical divider inside each double-door cabinet (upper and lower middle sections)
+
+Horizontal dividers:
+  - three horizontal partition panels in the open shelving zone (left)
+
+All geometry consists of rectangular panels. Preserve exact proportions.

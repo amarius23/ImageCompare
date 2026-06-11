@@ -1,0 +1,115 @@
+{
+  "furniture_type": "wardrobe",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 2.1,
+    "depth_notes": "freestanding, moderate depth"
+  },
+  "sections": [
+    {
+      "name": "leftmost cabinet",
+      "position": "far left",
+      "type": "two-door cabinet",
+      "width_fraction": 0.22,
+      "height_fraction": 1.0,
+      "details": "two full-height doors, vertical pull bars",
+      "counts": {
+        "doors": 2,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "middle-left cabinet",
+      "position": "center-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.19,
+      "height_fraction": 1.0,
+      "details": "one full-height door, vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "drawer/door section",
+      "position": "center",
+      "type": "two-door cabinet above drawers",
+      "width_fraction": 0.22,
+      "height_fraction": 1.0,
+      "details": "two full-height doors on top, four drawers below, vertical pull bars for doors, horizontal pull bars for drawers",
+      "counts": {
+        "doors": 2,
+        "drawers": 4,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "rightmost cabinet",
+      "position": "far right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.16,
+      "height_fraction": 1.0,
+      "details": "one full-height door, vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "Four equally-sized horizontal drawers stacked in the central section, each with a horizontal pull bar in the center"
+  ],
+  "doors": [
+    {
+      "description": "two full-height doors, side by side in leftmost section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    },
+    {
+      "description": "one full-height door in middle-left section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "two full-height doors in the central section above drawers",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    },
+    {
+      "description": "one full-height door in the rightmost section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [
+    "three vertical panels separating the four main sections"
+  ],
+  "horizontal_dividers": [
+    "one horizontal divider separating upper doors from drawers in the central section"
+  ],
+  "total_counts": {
+    "doors": 6,
+    "drawers": 4,
+    "sections": 4
+  }
+}

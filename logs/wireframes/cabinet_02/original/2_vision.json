@@ -3,14 +3,14 @@
   "perspective": "straight on",
   "proportions": {
     "width_to_height": 5.5,
-    "depth_notes": "shallow freestanding unit"
+    "depth_notes": "low-profile, not wall-mounted"
   },
   "sections": [
     {
       "name": "left cabinet",
       "position": "left",
       "type": "two-door cabinet",
-      "width_fraction": 0.17,
+      "width_fraction": 0.16,
       "height_fraction": 1.0,
       "details": "two full-height doors, no handles",
       "counts": {
@@ -25,45 +25,28 @@
     },
     {
       "name": "vertical slot section",
-      "position": "left-middle",
-      "type": "vertical slot organizer",
-      "width_fraction": 0.12,
-      "height_fraction": 1.0,
-      "details": "six narrow vertical slots, open front",
+      "position": "center-left",
+      "type": "open cubby with vertical slots",
+      "width_fraction": 0.18,
+      "height_fraction": 0.55,
+      "details": "six tall vertical slots, no doors, open front",
       "counts": {
         "doors": 0,
         "drawers": 0,
         "shelves": 0,
-        "vertical_dividers": 6,
-        "horizontal_dividers": 0,
+        "vertical_dividers": 5,
+        "horizontal_dividers": 1,
         "compartments": 6
       },
       "sub_sections": []
     },
     {
-      "name": "upper left open shelf",
-      "position": "center-left",
+      "name": "open cubby section",
+      "position": "center-left above slots",
       "type": "open shelf",
-      "width_fraction": 0.12,
-      "height_fraction": 0.55,
-      "details": "one rectangular open compartment",
-      "counts": {
-        "doors": 0,
-        "drawers": 0,
-        "shelves": 1,
-        "vertical_dividers": 0,
-        "horizontal_dividers": 1,
-        "compartments": 1
-      },
-      "sub_sections": []
-    },
-    {
-      "name": "lower left grid section",
-      "position": "center-left",
-      "type": "open grid",
-      "width_fraction": 0.12,
+      "width_fraction": 0.09,
       "height_fraction": 0.45,
-      "details": "one square open compartment below shelf",
+      "details": "open cubby, no dividers",
       "counts": {
         "doors": 0,
         "drawers": 0,
@@ -75,67 +58,67 @@
       "sub_sections": []
     },
     {
-      "name": "center left open shelf",
-      "position": "center-left",
-      "type": "open shelf",
-      "width_fraction": 0.13,
+      "name": "double open shelf section",
+      "position": "center",
+      "type": "double open cubby",
+      "width_fraction": 0.15,
       "height_fraction": 1.0,
-      "details": "one open shelf spanning full height",
+      "details": "two open horizontal cubbies stacked",
       "counts": {
         "doors": 0,
         "drawers": 0,
         "shelves": 1,
         "vertical_dividers": 0,
         "horizontal_dividers": 1,
-        "compartments": 1
+        "compartments": 2
       },
       "sub_sections": []
     },
     {
-      "name": "center left large door section",
-      "position": "center",
-      "type": "large drop-down door",
-      "width_fraction": 0.15,
-      "height_fraction": 0.57,
-      "details": "one large door with no visible handle",
-      "counts": {
-        "doors": 1,
-        "drawers": 0,
-        "shelves": 0,
-        "vertical_dividers": 0,
-        "horizontal_dividers": 0,
-        "compartments": 1
-      },
-      "sub_sections": []
-    },
-    {
-      "name": "center right large door section",
+      "name": "left large drawer section",
       "position": "center-right",
-      "type": "large drop-down door",
+      "type": "large slab-front drawer",
       "width_fraction": 0.13,
-      "height_fraction": 0.57,
-      "details": "one large door with no visible handle",
-      "counts": {
-        "doors": 1,
-        "drawers": 0,
-        "shelves": 0,
-        "vertical_dividers": 0,
-        "horizontal_dividers": 0,
-        "compartments": 1
-      },
-      "sub_sections": []
-    },
-    {
-      "name": "far right open and drawer section",
-      "position": "right",
-      "type": "open shelf with one drawer below",
-      "width_fraction": 0.12,
-      "height_fraction": 1.0,
-      "details": "upper open compartment, bottom wide drawer",
+      "height_fraction": 0.7,
+      "details": "one large drawer, plain front",
       "counts": {
         "doors": 0,
         "drawers": 1,
-        "shelves": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right large drawer section",
+      "position": "center-right",
+      "type": "large slab-front drawer",
+      "width_fraction": 0.13,
+      "height_fraction": 0.7,
+      "details": "one large drawer, plain front",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower open + drawer section",
+      "position": "right",
+      "type": "open cubby with lower drawer",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "upper open cubby, lower single drawer",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 0,
         "vertical_dividers": 0,
         "horizontal_dividers": 1,
         "compartments": 2
@@ -161,46 +144,38 @@
     }
   ],
   "drawers": [
-    "one wide drawer at lower section second from right"
+    "large left slab-front drawer, plain face, no handle, occupies most of its section",
+    "large right slab-front drawer, plain face, no handle, occupies most of its section",
+    "small lower right slab-front drawer, plain face, no handle, below open cubby"
   ],
   "doors": [
     {
-      "description": "left full-height door, flush with unit",
-      "handle_type": "none",
-      "handle_position": "left_center"
-    },
-    {
-      "description": "right full-height door, flush with unit",
-      "handle_type": "none",
-      "handle_position": "right_center"
-    },
-    {
-      "description": "center left large door panel with no handle",
+      "description": "two full-height left doors, each rectangular",
       "handle_type": "none",
       "handle_position": "center"
     },
     {
-      "description": "center right large door panel with no handle",
+      "description": "two full-height right doors, each rectangular",
       "handle_type": "none",
       "handle_position": "center"
     }
   ],
   "shelves": [
-    "open rectangular shelf at upper left center",
-    "open square shelf at bottom left center",
-    "full height open shelf near center",
-    "open upper shelf above right drawer"
+    "one permanent horizontal divider forming double open cubby section",
+    "one shelf base for lower drawer/open cubby section"
   ],
   "vertical_dividers": [
-    "six narrow dividers forming seven slots for vertical storage in second section from left",
-    "one divider down the middle of each two-door cabinet (left and right)"
+    "five evenly spaced, thin perpendicular panels in the vertical slot section",
+    "one vertical divider inside left cabinet",
+    "one vertical divider inside right cabinet"
   ],
   "horizontal_dividers": [
-    "horizontal partition between upper and lower compartments in sections with more than one row"
+    "one main shelf in double open cubby",
+    "one divider for lower right open cubby+drawer section"
   ],
   "total_counts": {
-    "doors": 6,
-    "drawers": 1,
-    "sections": 9
+    "doors": 4,
+    "drawers": 3,
+    "sections": 8
   }
 }

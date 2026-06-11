@@ -1,0 +1,38 @@
+Furniture: modular storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 3.5.
+Depth: relatively shallow wall unit.
+Total: 6 drawers total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left base cubby: open cubby.  X: 0%–11% of total width.  one large open compartment at the base
+       EXACT COUNTS: 1 shelves, 1 vertical dividers, 1 horizontal dividers, 1 compartments
+  [2] left open shelves: open shelving.  X: 11%–25% of total width.  multiple small open compartments
+       EXACT COUNTS: 1 drawers, 4 shelves, 2 vertical dividers, 4 horizontal dividers, 6 compartments
+  [3] left base drawer: base drawer.  X: 25%–39% of total width.  Height span: 17%.  single large drawer below shelves
+       EXACT COUNTS: 1 drawers, 1 compartments
+  [4] left center column: open section.  X: 39%–56% of total width.  tall open space with lower shelf compartment and base drawer
+       EXACT COUNTS: 1 drawers, 1 shelves, 2 vertical dividers, 1 horizontal dividers, 2 compartments
+  [5] center left open section: open section.  X: 56%–73% of total width.  tall open display area with shelf and base drawer
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [6] center right open section: open section.  X: 73%–90% of total width.  tall open display area with shelf and base drawer
+       EXACT COUNTS: 1 drawers, 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [7] right open shelves: open shelving.  X: 90%–104% of total width.  multiple small open compartments
+       EXACT COUNTS: 1 drawers, 4 shelves, 2 vertical dividers, 4 horizontal dividers, 6 compartments
+  [8] far right cubby: open shelving.  X: 104%–115% of total width.  one large open compartment at the base, upper open cubes
+       EXACT COUNTS: 3 shelves, 1 vertical dividers, 3 horizontal dividers, 4 compartments
+
+Drawers:
+  - six wide, handle-less base drawers spanning the width of the unit, one in each lower section
+
+Shelves:
+  - multiple horizontal shelves forming cubbies in the left and right shelving sections
+  - single display shelf at mid-height in each tall center section
+
+Vertical dividers:
+  - vertical dividers forming grid shelves in left, right, and central sections
+
+Horizontal dividers:
+  - base dividers above drawers and intermediate shelf dividers in grid sections
+
+All geometry consists of rectangular panels. Preserve exact proportions.

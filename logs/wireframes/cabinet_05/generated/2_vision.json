@@ -1,0 +1,162 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 7.5,
+    "depth_notes": "shallow wall-mounted unit"
+  },
+  "sections": [
+    {
+      "name": "left cabinet 1",
+      "position": "far left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 2",
+      "position": "left-middle",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 3",
+      "position": "left-middle",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 4",
+      "position": "left-middle",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 5",
+      "position": "center-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 6",
+      "position": "center-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "cabinet 7",
+      "position": "right-middle",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right cabinet 8",
+      "position": "far right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.1,
+      "height_fraction": 1.0,
+      "details": "one full-height plain door, no handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "each section has one plain full-height flat panel door",
+      "handle_type": "none",
+      "handle_position": "center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [],
+  "horizontal_dividers": [],
+  "total_counts": {
+    "doors": 8,
+    "drawers": 0,
+    "sections": 8
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "furniture_type": "wardrobe with open shelving",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 1.6,
+    "depth_notes": "standard wall unit depth"
+  },
+  "sections": [
+    {
+      "name": "open shelving",
+      "position": "far left",
+      "type": "open cubby shelves",
+      "width_fraction": 0.34,
+      "height_fraction": 1.0,
+      "details": "arranged in grid with slanted left edge, eight cubby sections",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 7,
+        "vertical_dividers": 3,
+        "horizontal_dividers": 3,
+        "compartments": 8
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper left cabinet",
+      "position": "center-left-top",
+      "type": "single-door cabinet",
+      "width_fraction": 0.165,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower left cabinet",
+      "position": "center-left-bottom",
+      "type": "single-door cabinet",
+      "width_fraction": 0.165,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper middle-left cabinet",
+      "position": "center-top-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.17,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower middle-left cabinet",
+      "position": "center-bottom-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.17,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "upper middle-right cabinet",
+      "position": "center-top-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.17,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "lower middle-right cabinet",
+      "position": "center-bottom-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.17,
+      "height_fraction": 0.5,
+      "details": "full depth, door with vertical pull bar",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "upper left door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "lower left door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "upper middle door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "lower middle door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "upper right door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "lower right door, vertical rectangular",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    }
+  ],
+  "shelves": [
+    "four horizontal shelf rows on left open cubbies, forming eight compartments"
+  ],
+  "vertical_dividers": [
+    "three vertical dividers forming cubby columns in the open shelving section"
+  ],
+  "horizontal_dividers": [
+    "three horizontal dividers forming cubby rows in the open shelving section"
+  ],
+  "total_counts": {
+    "doors": 6,
+    "drawers": 0,
+    "sections": 7
+  }
+}

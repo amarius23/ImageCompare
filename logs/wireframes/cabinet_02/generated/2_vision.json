@@ -1,16 +1,16 @@
 {
-  "furniture_type": "modular storage sideboard",
-  "perspective": "slightly angled front view",
+  "furniture_type": "modular storage unit",
+  "perspective": "straight on",
   "proportions": {
-    "width_to_height": 4.8,
-    "depth_notes": "shallow wall-standing unit"
+    "width_to_height": 5.8,
+    "depth_notes": "shallow freestanding unit"
   },
   "sections": [
     {
       "name": "left cabinet",
       "position": "left",
       "type": "two-door cabinet",
-      "width_fraction": 0.16,
+      "width_fraction": 0.14,
       "height_fraction": 1.0,
       "details": "two full-height doors, no handles",
       "counts": {
@@ -25,11 +25,11 @@
     },
     {
       "name": "vertical slot section",
-      "position": "center-left",
-      "type": "open slot shelves",
-      "width_fraction": 0.16,
-      "height_fraction": 0.75,
-      "details": "six vertical rectangular open slots, open front",
+      "position": "left-center",
+      "type": "open slots",
+      "width_fraction": 0.15,
+      "height_fraction": 1.0,
+      "details": "six vertical slots for books or files, open front",
       "counts": {
         "doors": 0,
         "drawers": 0,
@@ -41,12 +41,12 @@
       "sub_sections": []
     },
     {
-      "name": "upper left open shelf",
-      "position": "center-left above vertical slots",
+      "name": "upper open shelf left",
+      "position": "center left",
       "type": "open shelf",
-      "width_fraction": 0.16,
-      "height_fraction": 0.25,
-      "details": "single open compartment above slots",
+      "width_fraction": 0.13,
+      "height_fraction": 1.0,
+      "details": "rectangular open shelf, single compartment",
       "counts": {
         "doors": 0,
         "drawers": 0,
@@ -58,12 +58,12 @@
       "sub_sections": []
     },
     {
-      "name": "mid left open shelf",
-      "position": "left-center",
+      "name": "upper open shelf middle",
+      "position": "center middle",
       "type": "open shelf",
-      "width_fraction": 0.14,
+      "width_fraction": 0.13,
       "height_fraction": 1.0,
-      "details": "single square open cubby",
+      "details": "rectangular open shelf, single compartment",
       "counts": {
         "doors": 0,
         "drawers": 0,
@@ -75,50 +75,50 @@
       "sub_sections": []
     },
     {
-      "name": "left center door section",
-      "position": "center",
-      "type": "door with open shelf below",
-      "width_fraction": 0.14,
+      "name": "left lower door section",
+      "position": "center right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.13,
       "height_fraction": 1.0,
-      "details": "one large door above, one open shelf below",
+      "details": "one door, no handle, aligns with adjacent compartments",
       "counts": {
         "doors": 1,
         "drawers": 0,
-        "shelves": 1,
+        "shelves": 0,
         "vertical_dividers": 0,
-        "horizontal_dividers": 1,
-        "compartments": 2
+        "horizontal_dividers": 0,
+        "compartments": 1
       },
       "sub_sections": []
     },
     {
-      "name": "right center door section",
+      "name": "right lower door section",
+      "position": "center right 2",
+      "type": "single-door cabinet",
+      "width_fraction": 0.13,
+      "height_fraction": 1.0,
+      "details": "one door, no handle, aligns with adjacent compartments",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "drawer-open box section",
       "position": "right-center",
-      "type": "single door",
-      "width_fraction": 0.14,
+      "type": "open box over one drawer",
+      "width_fraction": 0.11,
       "height_fraction": 1.0,
-      "details": "single large door, no visible handle",
-      "counts": {
-        "doors": 1,
-        "drawers": 0,
-        "shelves": 0,
-        "vertical_dividers": 0,
-        "horizontal_dividers": 0,
-        "compartments": 1
-      },
-      "sub_sections": []
-    },
-    {
-      "name": "lower right open shelf with drawer",
-      "position": "right-center, below two doors",
-      "type": "open shelf with single drawer",
-      "width_fraction": 0.1,
-      "height_fraction": 1.0,
-      "details": "open compartment above single wide drawer",
+      "details": "open upper compartment with one bottom drawer",
       "counts": {
         "doors": 0,
         "drawers": 1,
-        "shelves": 1,
+        "shelves": 0,
         "vertical_dividers": 0,
         "horizontal_dividers": 1,
         "compartments": 2
@@ -129,9 +129,9 @@
       "name": "right cabinet",
       "position": "right",
       "type": "single-door cabinet",
-      "width_fraction": 0.16,
+      "width_fraction": 0.18,
       "height_fraction": 1.0,
-      "details": "one full-height door, no handle",
+      "details": "one full-height door with no handle",
       "counts": {
         "doors": 1,
         "drawers": 0,
@@ -144,41 +144,38 @@
     }
   ],
   "drawers": [
-    "single wide drawer at bottom right, flush front, no visible handle"
+    "One bottom-right wide drawer beneath open compartment"
   ],
   "doors": [
     {
-      "description": "two full-height doors on the leftmost section, no handle",
+      "description": "two full-height doors, leftmost",
       "handle_type": "none",
-      "handle_position": "center"
+      "handle_position": "left_center"
     },
     {
-      "description": "large door in left center, flush with no visible handle",
+      "description": "one medium door, below open shelves left-center",
       "handle_type": "none",
-      "handle_position": "center"
+      "handle_position": "right_center"
     },
     {
-      "description": "large door in right center, flush with no visible handle",
+      "description": "one medium door, below open shelves right-center",
       "handle_type": "none",
-      "handle_position": "center"
+      "handle_position": "left_center"
     },
     {
-      "description": "single full-height door on rightmost section, no handle",
+      "description": "one full-height door, rightmost",
       "handle_type": "none",
-      "handle_position": "center"
+      "handle_position": "right_center"
     }
   ],
   "shelves": [
-    "one open shelf above six vertical slots (upper left center)",
-    "one open shelf below the large door (left center section)",
-    "one open compartment above drawer (lower right center)"
+    "Three upper open shelf sections for books/decor, evenly divided"
   ],
   "vertical_dividers": [
-    "five thin panels forming six vertical slots in center-left section"
+    "Five equally spaced vertical dividers creating six narrow book/file slots"
   ],
   "horizontal_dividers": [
-    "divider between door and shelf in left center section",
-    "divider between open compartment and drawer in lower right center section"
+    "One divider above bottom-wide drawer in right-center section"
   ],
   "total_counts": {
     "doors": 5,

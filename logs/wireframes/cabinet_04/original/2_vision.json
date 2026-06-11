@@ -1,0 +1,137 @@
+{
+  "furniture_type": "wardrobe",
+  "perspective": "straight on",
+  "proportions": {
+    "width_to_height": 2.3,
+    "depth_notes": "free-standing, standard wardrobe depth"
+  },
+  "sections": [
+    {
+      "name": "far left cabinet",
+      "position": "far left",
+      "type": "single tall door cabinet",
+      "width_fraction": 0.18,
+      "height_fraction": 1.0,
+      "details": "full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left center cabinet",
+      "position": "left center",
+      "type": "single tall door cabinet",
+      "width_fraction": 0.18,
+      "height_fraction": 1.0,
+      "details": "full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center cabinet with drawers",
+      "position": "center",
+      "type": "tall double door cabinet above drawers",
+      "width_fraction": 0.25,
+      "height_fraction": 1.0,
+      "details": "upper double doors with vertical pull bar handles, 3 horizontal drawers below",
+      "counts": {
+        "doors": 2,
+        "drawers": 3,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right center cabinet",
+      "position": "right center",
+      "type": "single tall door cabinet",
+      "width_fraction": 0.18,
+      "height_fraction": 1.0,
+      "details": "full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "far right cabinet",
+      "position": "far right",
+      "type": "single tall door cabinet",
+      "width_fraction": 0.21,
+      "height_fraction": 1.0,
+      "details": "full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "Three large horizontal drawers with straight handles, all located in the central lower section."
+  ],
+  "doors": [
+    {
+      "description": "full-height door, leftmost section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "full-height door, left center section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "double doors, center upper section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    },
+    {
+      "description": "full-height door, right center section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "full-height door, far right section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [
+    "Vertical divider separates each cabinet section."
+  ],
+  "horizontal_dividers": [
+    "Horizontal divider above drawers in central section."
+  ],
+  "total_counts": {
+    "doors": 6,
+    "drawers": 3,
+    "sections": 5
+  }
+}

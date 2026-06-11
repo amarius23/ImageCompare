@@ -1,0 +1,10 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 0,
+  "reason": "perspective mismatch \u2014 generated is side (not frontal)",
+  "differences": [
+    "generated is side (not frontal)"
+  ],
+  "matching_elements": [],
+  "summary": "Comparison skipped: the furniture is not photographed straight-on so wireframes cannot be structurally compared."
+}

@@ -1,0 +1,37 @@
+{
+  "verdict": "MATCH",
+  "confidence": 90,
+  "original_structure": {
+    "section_count": 3,
+    "total_doors": 2,
+    "total_drawers": 0,
+    "total_open_bays": 5,
+    "vertical_dividers": 2,
+    "horizontal_dividers": 3,
+    "width_to_height_ratio": 2.2
+  },
+  "generated_structure": {
+    "section_count": 3,
+    "total_doors": 2,
+    "total_drawers": 0,
+    "total_open_bays": 5,
+    "vertical_dividers": 2,
+    "horizontal_dividers": 3,
+    "width_to_height_ratio": 2.2
+  },
+  "matching_elements": [
+    "section_count",
+    "total_doors",
+    "total_drawers",
+    "total_open_bays",
+    "vertical_dividers",
+    "horizontal_dividers",
+    "width_to_height_ratio"
+  ],
+  "differences": [
+    "minor perspective differences",
+    "minor line placement differences on bay edges"
+  ],
+  "summary": "The overall structure and elements are nearly identical, with only minor drawing differences.",
+  "ssim_score": 0.7659
+}

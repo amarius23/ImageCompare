@@ -1,0 +1,28 @@
+Furniture: modular sideboard.
+Perspective: straight on.
+Width-to-height ratio: approximately 7.5.
+Depth: shallow wall-mounted unit.
+Total: 8 doors total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left cabinet 1: single-door cabinet.  X: 0%–12% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] cabinet 2: single-door cabinet.  X: 12%–25% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] cabinet 3: single-door cabinet.  X: 25%–38% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [4] cabinet 4: single-door cabinet.  X: 38%–50% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [5] cabinet 5: single-door cabinet.  X: 50%–62% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [6] cabinet 6: single-door cabinet.  X: 62%–75% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [7] cabinet 7: single-door cabinet.  X: 75%–88% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [8] right cabinet 8: single-door cabinet.  X: 88%–100% of total width.  one full-height door, no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'eight full-height doors, rectangular, seamless, no ornament', 'handle_type': 'none', 'handle_position': 'center'}
+
+All geometry consists of rectangular panels. Preserve exact proportions.

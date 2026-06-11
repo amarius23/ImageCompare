@@ -1,0 +1,168 @@
+{
+  "furniture_type": "wardrobe",
+  "perspective": "straight on",
+  "proportions": {
+    "width_to_height": 2.5,
+    "depth_notes": "typical freestanding wardrobe depth"
+  },
+  "sections": [
+    {
+      "name": "left column",
+      "position": "left",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "second column",
+      "position": "left center",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "third column",
+      "position": "center left",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "fourth column",
+      "position": "center",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "fifth column",
+      "position": "center right",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "sixth column",
+      "position": "right center",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "seventh column",
+      "position": "right",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "eighth column",
+      "position": "far right",
+      "type": "wardrobe column",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above two horizontal drawers",
+      "counts": {
+        "doors": 1,
+        "drawers": 2,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "Sixteen identical shallow horizontal drawers, two per column along the bottom row, no visible handles"
+  ],
+  "doors": [
+    {
+      "description": "eight full-height flat slab doors, seamless appearance, each spanning the full column height above drawers",
+      "handle_type": "none",
+      "handle_position": "center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [
+    "Seven narrow vertical partition panels, dividing each column"
+  ],
+  "horizontal_dividers": [
+    "One continuous horizontal partition panel above the drawer row, separating drawers from upper doors"
+  ],
+  "total_counts": {
+    "doors": 8,
+    "drawers": 16,
+    "sections": 8
+  }
+}

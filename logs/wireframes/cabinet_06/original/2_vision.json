@@ -1,0 +1,119 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "straight on",
+  "proportions": {
+    "width_to_height": 4.5,
+    "depth_notes": "shallow floor-standing unit"
+  },
+  "sections": [
+    {
+      "name": "left cabinet",
+      "position": "far left",
+      "type": "two-door cabinet",
+      "width_fraction": 0.2,
+      "height_fraction": 1.0,
+      "details": "two full-height doors, vertical pull bar handles",
+      "counts": {
+        "doors": 2,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-left cabinet",
+      "position": "center-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.2,
+      "height_fraction": 1.0,
+      "details": "one full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-right cabinet",
+      "position": "center-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.2,
+      "height_fraction": 1.0,
+      "details": "one full-height door, vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right cabinet",
+      "position": "far right",
+      "type": "double-width single-door cabinet",
+      "width_fraction": 0.4,
+      "height_fraction": 1.0,
+      "details": "one wide full-height door, no visible handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "full-height left door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "full-height left inner door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "full-height center-left door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "full-height center-right door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "full-height right door",
+      "handle_type": "none",
+      "handle_position": "center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [
+    "vertical divider between left cabinet doors",
+    "panel dividing left cabinet and center-left cabinet",
+    "panel dividing center-left and center-right cabinets",
+    "panel dividing center-right and right cabinet"
+  ],
+  "horizontal_dividers": [],
+  "total_counts": {
+    "doors": 5,
+    "drawers": 0,
+    "sections": 4
+  }
+}

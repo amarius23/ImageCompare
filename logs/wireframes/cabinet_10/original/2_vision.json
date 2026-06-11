@@ -1,0 +1,100 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 2.2,
+    "depth_notes": "freestanding, moderate depth, not wall-mounted"
+  },
+  "sections": [
+    {
+      "name": "left open shelving",
+      "position": "left",
+      "type": "open shelf section",
+      "width_fraction": 0.28,
+      "height_fraction": 1.0,
+      "details": "open, single horizontal shelf, no doors or drawers",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-left tall open",
+      "position": "center-left",
+      "type": "tall open section",
+      "width_fraction": 0.23,
+      "height_fraction": 1.0,
+      "details": "tall open space, no shelves or doors",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right open lower",
+      "position": "center-right bottom",
+      "type": "open shelf section",
+      "width_fraction": 0.24,
+      "height_fraction": 0.53,
+      "details": "bottom open cubby below glass doors, no shelf",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right glass cabinet",
+      "position": "center-right top",
+      "type": "two-door glass cabinet",
+      "width_fraction": 0.24,
+      "height_fraction": 0.47,
+      "details": "two glass doors, each with vertical pull bars",
+      "counts": {
+        "doors": 2,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "two glass doors, upper right section",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "center"
+    }
+  ],
+  "shelves": [
+    "one horizontal shelf, left section only"
+  ],
+  "vertical_dividers": [
+    "three main vertical panels separate the four sections"
+  ],
+  "horizontal_dividers": [
+    "one shelf divides left section in half"
+  ],
+  "total_counts": {
+    "doors": 2,
+    "drawers": 0,
+    "sections": 4
+  }
+}

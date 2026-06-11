@@ -1,0 +1,28 @@
+Furniture: modular storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 7.5.
+Depth: shallow wall-mounted unit.
+Total: 8 doors total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left cabinet 1: single-door cabinet.  X: 0%–10% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] cabinet 2: single-door cabinet.  X: 10%–20% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] cabinet 3: single-door cabinet.  X: 20%–30% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [4] cabinet 4: single-door cabinet.  X: 30%–40% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [5] cabinet 5: single-door cabinet.  X: 40%–50% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [6] cabinet 6: single-door cabinet.  X: 50%–60% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [7] cabinet 7: single-door cabinet.  X: 60%–70% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [8] right cabinet 8: single-door cabinet.  X: 70%–80% of total width.  one full-height plain door, no handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'each section has one plain full-height flat panel door', 'handle_type': 'none', 'handle_position': 'center'}
+
+All geometry consists of rectangular panels. Preserve exact proportions.

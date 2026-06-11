@@ -1,0 +1,23 @@
+Furniture: sideboard.
+Perspective: straight on.
+Width-to-height ratio: approximately 3.5.
+Depth: shallow wall-standing unit.
+Total: 4 doors total, 4 sections.
+
+Sections (4 total, left to right):
+  [1] far left cabinet: single-door cabinet.  X: 0%–25% of total width.  single full-height door with vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] left center cabinet: single-door cabinet.  X: 25%–50% of total width.  single full-height door with vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] right center cabinet: single-door cabinet.  X: 50%–75% of total width.  single full-height door with vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [4] far right cabinet: single-door cabinet.  X: 75%–100% of total width.  single full-height door with vertical pull bar handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'full-height flat panel door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+  - {'description': 'full-height flat panel door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+  - {'description': 'full-height flat panel door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'left_center'}
+  - {'description': 'full-height flat panel door', 'handle_type': 'vertical_pull_bar', 'handle_position': 'right_center'}
+
+All geometry consists of rectangular panels. Preserve exact proportions.

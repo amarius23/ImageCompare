@@ -1,0 +1,37 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 60,
+  "original_structure": {
+    "section_count": 6,
+    "total_doors": 6,
+    "total_drawers": 0,
+    "total_open_bays": 6,
+    "vertical_dividers": 5,
+    "horizontal_dividers": 3,
+    "width_to_height_ratio": 2.0
+  },
+  "generated_structure": {
+    "section_count": 6,
+    "total_doors": 6,
+    "total_drawers": 0,
+    "total_open_bays": 6,
+    "vertical_dividers": 5,
+    "horizontal_dividers": 2,
+    "width_to_height_ratio": 2.0
+  },
+  "matching_elements": [
+    "section_count matches",
+    "total_doors matches",
+    "total_drawers matches",
+    "total_open_bays matches",
+    "vertical_dividers match",
+    "overall proportions match"
+  ],
+  "differences": [
+    "original has 3 horizontal dividers, generated has 2",
+    "drawer/door handle placements and markings differ",
+    "bottom baseboard structure is different, especially on the left"
+  ],
+  "summary": "Structures are similar in sectioning and overall ratio, but divider count and base details differ.",
+  "ssim_score": 0.7464
+}

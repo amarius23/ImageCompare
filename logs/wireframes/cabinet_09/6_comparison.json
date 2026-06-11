@@ -1,0 +1,36 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 60,
+  "original_structure": {
+    "section_count": 6,
+    "total_doors": 4,
+    "total_drawers": 0,
+    "total_open_bays": 2,
+    "vertical_dividers": 1,
+    "horizontal_dividers": 2,
+    "width_to_height_ratio": 0.67
+  },
+  "generated_structure": {
+    "section_count": 4,
+    "total_doors": 4,
+    "total_drawers": 0,
+    "total_open_bays": 2,
+    "vertical_dividers": 1,
+    "horizontal_dividers": 1,
+    "width_to_height_ratio": 0.67
+  },
+  "matching_elements": [
+    "total_doors",
+    "total_drawers",
+    "total_open_bays",
+    "vertical_dividers",
+    "width_to_height_ratio"
+  ],
+  "differences": [
+    "section_count does not match",
+    "generated_structure has fewer horizontal dividers (1 vs 2)",
+    "bottom section doors are configured differently"
+  ],
+  "summary": "Both wireframes have several matching elements, but key differences in sectioning and dividers make them structurally different.",
+  "ssim_score": 0.8032
+}

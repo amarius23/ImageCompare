@@ -1,0 +1,11 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 0,
+  "reason": "perspective mismatch \u2014 original is three_quarter (not frontal); generated is three_quarter (not frontal)",
+  "differences": [
+    "original is three_quarter (not frontal)",
+    "generated is three_quarter (not frontal)"
+  ],
+  "matching_elements": [],
+  "summary": "Comparison skipped: the furniture is not photographed straight-on so wireframes cannot be structurally compared."
+}

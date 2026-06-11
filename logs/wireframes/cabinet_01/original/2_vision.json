@@ -3,16 +3,16 @@
   "perspective": "slightly angled front view",
   "proportions": {
     "width_to_height": 0.5,
-    "depth_notes": "medium depth freestanding unit with angled top"
+    "depth_notes": "standard floor-standing unit, moderate depth"
   },
   "sections": [
     {
-      "name": "main cabinet",
-      "position": "full",
+      "name": "main wardrobe section",
+      "position": "left",
       "type": "single-door cabinet",
       "width_fraction": 1.0,
       "height_fraction": 1.0,
-      "details": "full-height door with angled top, one visible handle",
+      "details": "one full-height door with diagonal slant on top, vertical pull bar handle",
       "counts": {
         "doors": 1,
         "drawers": 0,
@@ -29,7 +29,7 @@
     {
       "description": "one full-height door with slanted top",
       "handle_type": "vertical_pull_bar",
-      "handle_position": "right_center"
+      "handle_position": "left_center"
     }
   ],
   "shelves": [],

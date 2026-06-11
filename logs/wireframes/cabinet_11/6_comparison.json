@@ -1,0 +1,36 @@
+{
+  "verdict": "MATCH",
+  "confidence": 95,
+  "original_structure": {
+    "section_count": 6,
+    "total_doors": 6,
+    "total_drawers": 6,
+    "total_open_bays": 0,
+    "vertical_dividers": 5,
+    "horizontal_dividers": 1,
+    "width_to_height_ratio": 2.1
+  },
+  "generated_structure": {
+    "section_count": 6,
+    "total_doors": 6,
+    "total_drawers": 6,
+    "total_open_bays": 0,
+    "vertical_dividers": 5,
+    "horizontal_dividers": 1,
+    "width_to_height_ratio": 2.1
+  },
+  "matching_elements": [
+    "section count",
+    "total doors",
+    "total drawers",
+    "vertical dividers",
+    "horizontal dividers",
+    "width to height proportions",
+    "overall layout"
+  ],
+  "differences": [
+    "drawer handles in original versus door handles in generated"
+  ],
+  "summary": "Both wireframes are nearly identical structurally except for handle placement style.",
+  "ssim_score": 0.7767
+}

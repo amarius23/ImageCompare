@@ -1,0 +1,168 @@
+{
+  "furniture_type": "wardrobe",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 2.3,
+    "depth_notes": "freestanding, standard wardrobe depth"
+  },
+  "sections": [
+    {
+      "name": "left tall section",
+      "position": "left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left-center tall section",
+      "position": "mid-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left-mid tall section",
+      "position": "mid-left-center",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center tall section",
+      "position": "center-left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center-right tall section",
+      "position": "center-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right-mid tall section",
+      "position": "mid-right-center",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right-center tall section",
+      "position": "mid-right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right tall section",
+      "position": "right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.125,
+      "height_fraction": 1.0,
+      "details": "full-height door above one bottom drawer, no visible handles",
+      "counts": {
+        "doors": 1,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "eight identical wide, shallow drawers along the bottom, each under a tall cabinet door"
+  ],
+  "doors": [
+    {
+      "description": "eight full-height doors with flush finish, no visible hardware",
+      "handle_type": "none",
+      "handle_position": "center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [
+    "seven vertical partition panels, separating each tall section"
+  ],
+  "horizontal_dividers": [
+    "one continuous horizontal divider above bottom drawer row"
+  ],
+  "total_counts": {
+    "doors": 8,
+    "drawers": 8,
+    "sections": 8
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "furniture_type": "sideboard",
+  "perspective": "straight on",
+  "proportions": {
+    "width_to_height": 3.5,
+    "depth_notes": "shallow wall-standing unit"
+  },
+  "sections": [
+    {
+      "name": "far left cabinet",
+      "position": "left",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 1.0,
+      "details": "single full-height door with vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left center cabinet",
+      "position": "left-center",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 1.0,
+      "details": "single full-height door with vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right center cabinet",
+      "position": "right-center",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 1.0,
+      "details": "single full-height door with vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "far right cabinet",
+      "position": "right",
+      "type": "single-door cabinet",
+      "width_fraction": 0.25,
+      "height_fraction": 1.0,
+      "details": "single full-height door with vertical pull bar handle",
+      "counts": {
+        "doors": 1,
+        "drawers": 0,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [
+    {
+      "description": "full-height flat panel door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "full-height flat panel door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    },
+    {
+      "description": "full-height flat panel door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "left_center"
+    },
+    {
+      "description": "full-height flat panel door",
+      "handle_type": "vertical_pull_bar",
+      "handle_position": "right_center"
+    }
+  ],
+  "shelves": [],
+  "vertical_dividers": [],
+  "horizontal_dividers": [],
+  "total_counts": {
+    "doors": 4,
+    "drawers": 0,
+    "sections": 4
+  }
+}

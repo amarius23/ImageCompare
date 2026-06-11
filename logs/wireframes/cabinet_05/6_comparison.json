@@ -1,0 +1,35 @@
+{
+  "verdict": "NO MATCH",
+  "confidence": 45,
+  "original_structure": {
+    "section_count": 7,
+    "total_doors": 1,
+    "total_drawers": 0,
+    "total_open_bays": 0,
+    "vertical_dividers": 6,
+    "horizontal_dividers": 0,
+    "width_to_height_ratio": 5.2
+  },
+  "generated_structure": {
+    "section_count": 7,
+    "total_doors": 6,
+    "total_drawers": 0,
+    "total_open_bays": 0,
+    "vertical_dividers": 6,
+    "horizontal_dividers": 0,
+    "width_to_height_ratio": 5.2
+  },
+  "matching_elements": [
+    "section_count",
+    "vertical_dividers",
+    "horizontal_dividers",
+    "width_to_height_ratio"
+  ],
+  "differences": [
+    "original has only 1 door while generated has 6 doors",
+    "door placement and handles differ",
+    "original has a unique angled section at one end"
+  ],
+  "summary": "The section layout matches, but the door configuration and some key details differ significantly.",
+  "ssim_score": 0.8823
+}

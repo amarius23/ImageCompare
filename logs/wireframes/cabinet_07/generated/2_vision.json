@@ -1,0 +1,165 @@
+{
+  "furniture_type": "modular storage unit",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 3.5,
+    "depth_notes": "relatively shallow wall unit"
+  },
+  "sections": [
+    {
+      "name": "left base cubby",
+      "position": "left",
+      "type": "open cubby",
+      "width_fraction": 0.11,
+      "height_fraction": 1.0,
+      "details": "one large open compartment at the base",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left open shelves",
+      "position": "second from left",
+      "type": "open shelving",
+      "width_fraction": 0.14,
+      "height_fraction": 1.0,
+      "details": "multiple small open compartments",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 4,
+        "vertical_dividers": 2,
+        "horizontal_dividers": 4,
+        "compartments": 6
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left base drawer",
+      "position": "beneath left open shelves",
+      "type": "base drawer",
+      "width_fraction": 0.14,
+      "height_fraction": 0.17,
+      "details": "single large drawer below shelves",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 0,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 0,
+        "compartments": 1
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "left center column",
+      "position": "third from left",
+      "type": "open section",
+      "width_fraction": 0.17,
+      "height_fraction": 1.0,
+      "details": "tall open space with lower shelf compartment and base drawer",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 1,
+        "vertical_dividers": 2,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center left open section",
+      "position": "center left",
+      "type": "open section",
+      "width_fraction": 0.17,
+      "height_fraction": 1.0,
+      "details": "tall open display area with shelf and base drawer",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "center right open section",
+      "position": "center right",
+      "type": "open section",
+      "width_fraction": 0.17,
+      "height_fraction": 1.0,
+      "details": "tall open display area with shelf and base drawer",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 1,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 1,
+        "compartments": 2
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "right open shelves",
+      "position": "second from right",
+      "type": "open shelving",
+      "width_fraction": 0.14,
+      "height_fraction": 1.0,
+      "details": "multiple small open compartments",
+      "counts": {
+        "doors": 0,
+        "drawers": 1,
+        "shelves": 4,
+        "vertical_dividers": 2,
+        "horizontal_dividers": 4,
+        "compartments": 6
+      },
+      "sub_sections": []
+    },
+    {
+      "name": "far right cubby",
+      "position": "far right",
+      "type": "open shelving",
+      "width_fraction": 0.11,
+      "height_fraction": 1.0,
+      "details": "one large open compartment at the base, upper open cubes",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 3,
+        "vertical_dividers": 1,
+        "horizontal_dividers": 3,
+        "compartments": 4
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [
+    "six wide, handle-less base drawers spanning the width of the unit, one in each lower section"
+  ],
+  "doors": [],
+  "shelves": [
+    "multiple horizontal shelves forming cubbies in the left and right shelving sections",
+    "single display shelf at mid-height in each tall center section"
+  ],
+  "vertical_dividers": [
+    "vertical dividers forming grid shelves in left, right, and central sections"
+  ],
+  "horizontal_dividers": [
+    "base dividers above drawers and intermediate shelf dividers in grid sections"
+  ],
+  "total_counts": {
+    "doors": 0,
+    "drawers": 6,
+    "sections": 8
+  }
+}

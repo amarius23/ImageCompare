@@ -1,0 +1,18 @@
+Furniture: open shelf bookcase.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 0.45.
+Depth: medium depth freestanding unit.
+Total: 1 sections.
+
+Sections (1 total, left to right):
+  [1] main shelf column: open shelving column.  X: 0%–100% of total width.  one tall column with adjustable shelves, no back panel or doors
+       EXACT COUNTS: 2 shelves, 2 horizontal dividers, 3 compartments
+
+Shelves:
+  - two fixed or adjustable full-width shelf panels dividing the vertical column into three compartments
+
+Horizontal dividers:
+  - upper shelf panel
+  - lower shelf panel
+
+All geometry consists of rectangular panels. Preserve exact proportions.

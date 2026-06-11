@@ -1,0 +1,17 @@
+Furniture: open shelving unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 0.4.
+Depth: shallow freestanding unit.
+Total: 1 sections.
+
+Sections (1 total, left to right):
+  [1] main shelving column: open shelf column.  X: 0%–100% of total width.  open front, adjustable shelf holes along sides
+       EXACT COUNTS: 2 shelves, 2 horizontal dividers, 3 compartments
+
+Shelves:
+  - two fixed shelves forming three compartments, adjustable height possible via side holes
+
+Horizontal dividers:
+  - two shelf panels spanning width of the unit
+
+All geometry consists of rectangular panels. Preserve exact proportions.

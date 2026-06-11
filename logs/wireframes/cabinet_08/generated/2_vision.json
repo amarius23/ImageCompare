@@ -1,0 +1,42 @@
+{
+  "furniture_type": "open shelf bookcase",
+  "perspective": "slightly angled front view",
+  "proportions": {
+    "width_to_height": 0.45,
+    "depth_notes": "medium depth freestanding unit"
+  },
+  "sections": [
+    {
+      "name": "main shelf column",
+      "position": "center",
+      "type": "open shelving column",
+      "width_fraction": 1.0,
+      "height_fraction": 1.0,
+      "details": "one tall column with adjustable shelves, no back panel or doors",
+      "counts": {
+        "doors": 0,
+        "drawers": 0,
+        "shelves": 2,
+        "vertical_dividers": 0,
+        "horizontal_dividers": 2,
+        "compartments": 3
+      },
+      "sub_sections": []
+    }
+  ],
+  "drawers": [],
+  "doors": [],
+  "shelves": [
+    "two fixed or adjustable full-width shelf panels dividing the vertical column into three compartments"
+  ],
+  "vertical_dividers": [],
+  "horizontal_dividers": [
+    "upper shelf panel",
+    "lower shelf panel"
+  ],
+  "total_counts": {
+    "doors": 0,
+    "drawers": 0,
+    "sections": 1
+  }
+}

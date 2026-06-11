@@ -1,0 +1,45 @@
+Furniture: modular storage unit.
+Perspective: slightly angled front view.
+Width-to-height ratio: approximately 0.6.
+Depth: deep floor-standing unit.
+Total: 4 doors total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] upper left cabinet: single-door cabinet.  X: 0%–50% of total width.  Height span: 38%.  full-height door, no handle visible
+       EXACT COUNTS: 1 doors, 1 compartments
+  [2] upper right cabinet: single-door cabinet.  X: 50%–100% of total width.  Height span: 38%.  full-height door, no handle visible
+       EXACT COUNTS: 1 doors, 1 compartments
+  [3] middle left open section: open compartment.  X: 100%–150% of total width.  Height span: 28%.  open section with vertical divider on right, one horizontal shelf below
+       EXACT COUNTS: 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [4] middle right open section: open compartment.  X: 150%–200% of total width.  Height span: 28%.  open section with vertical divider on left, one horizontal shelf below
+       EXACT COUNTS: 1 shelves, 1 vertical dividers, 1 horizontal dividers, 2 compartments
+  [5] lower left cubby section: open cubbies.  X: 200%–225% of total width.  Height span: 13%.  two open horizontal cubby compartments
+       EXACT COUNTS: 1 shelves, 1 horizontal dividers, 2 compartments
+  [6] lower right cubby section: open cubbies.  X: 225%–250% of total width.  Height span: 13%.  two open horizontal cubby compartments
+       EXACT COUNTS: 1 shelves, 1 horizontal dividers, 2 compartments
+  [7] bottom left door section: single-door cabinet.  X: 250%–275% of total width.  Height span: 20%.  one short door with no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+  [8] bottom right door section: single-door cabinet.  X: 275%–300% of total width.  Height span: 20%.  one short door with no visible handle
+       EXACT COUNTS: 1 doors, 1 compartments
+
+Doors:
+  - {'description': 'upper left full-height door', 'handle_type': 'none', 'handle_position': 'right_center'}
+  - {'description': 'upper right full-height door', 'handle_type': 'none', 'handle_position': 'left_center'}
+  - {'description': 'bottom left short door', 'handle_type': 'none', 'handle_position': 'right_center'}
+  - {'description': 'bottom right short door', 'handle_type': 'none', 'handle_position': 'left_center'}
+
+Shelves:
+  - one horizontal shelf in middle left open section
+  - one horizontal shelf in middle right open section
+  - one horizontal shelf forming two cubbies in lower left section
+  - one horizontal shelf forming two cubbies in lower right section
+
+Vertical dividers:
+  - one full-height divider between left and right open compartments
+
+Horizontal dividers:
+  - one divider below both middle open sections
+  - one divider forming lower left cubbies
+  - one divider forming lower right cubbies
+
+All geometry consists of rectangular panels. Preserve exact proportions.

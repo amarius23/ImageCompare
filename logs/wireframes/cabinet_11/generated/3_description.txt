@@ -1,0 +1,37 @@
+Furniture: wardrobe.
+Perspective: straight on.
+Width-to-height ratio: approximately 2.5.
+Depth: typical freestanding wardrobe depth.
+Total: 8 doors total, 16 drawers total, 8 sections.
+
+Sections (8 total, left to right):
+  [1] left column: wardrobe column.  X: 0%–12% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [2] second column: wardrobe column.  X: 12%–25% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [3] third column: wardrobe column.  X: 25%–38% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [4] fourth column: wardrobe column.  X: 38%–50% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [5] fifth column: wardrobe column.  X: 50%–62% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [6] sixth column: wardrobe column.  X: 62%–75% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [7] seventh column: wardrobe column.  X: 75%–88% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+  [8] eighth column: wardrobe column.  X: 88%–100% of total width.  full-height door above two horizontal drawers
+       EXACT COUNTS: 1 doors, 2 drawers, 1 horizontal dividers, 2 compartments
+
+Drawers:
+  - Sixteen identical shallow horizontal drawers, two per column along the bottom row, no visible handles
+
+Doors:
+  - {'description': 'eight full-height flat slab doors, seamless appearance, each spanning the full column height above drawers', 'handle_type': 'none', 'handle_position': 'center'}
+
+Vertical dividers:
+  - Seven narrow vertical partition panels, dividing each column
+
+Horizontal dividers:
+  - One continuous horizontal partition panel above the drawer row, separating drawers from upper doors
+
+All geometry consists of rectangular panels. Preserve exact proportions.
